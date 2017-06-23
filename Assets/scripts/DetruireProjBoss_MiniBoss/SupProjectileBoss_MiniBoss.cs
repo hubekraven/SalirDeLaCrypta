@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class SupProjectileBoss_MiniBoss : MonoBehaviour
 {
-	public float pointsDommage =1;
 
-	void OnTriggerEnter2D (Collider2D coll){
-		GameObject.Destroy (this.gameObject);
-		//Debug.Log (coll.gameObject.transform.parent.name);
+	void OnTriggerEnter2D (Collider2D Other)
+	{
 
-		Rigidbody2D rbTouche = coll.gameObject.GetComponent <Rigidbody2D>();
-		if (coll.gameObject.transform.parent) {
-			if (coll.gameObject.transform.tag == "Player") {
-				rbTouche.SendMessageUpwards ("Toucher", pointsDommage, SendMessageOptions.RequireReceiver);
-			}
+		// detruire les projectile des miniboss et boss des qu ils touchent leurs salle respectives ( j'ai donne le tag de collisionsalle a toutes les salles) 
+		// detruire le projectile des miniboss et boss des qu ils touchent le heros
+		if (Other.gameObject.tag == "collisionsalle" || Other.gameObject.name == "Perso" || Other.gameObject.tag == "bouclier") {
+
+			GameObject.Destroy (this.gameObject);
 
 		}
+
 	}
 }

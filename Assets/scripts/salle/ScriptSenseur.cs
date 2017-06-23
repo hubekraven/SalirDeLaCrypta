@@ -30,11 +30,20 @@ public class ScriptSenseur : MonoBehaviour
 
 	void OnTriggerEnter2D (Collider2D Other)
 	{
-
-		if(Other.gameObject.transform.tag =="Player"){
+		//Debug.Log (Other.name);
+		/*//==NOTE: UTILISER CE SCRIPT AVEC NOUVEAU PREFAB PERSONNAGE
+		if(Other.gameObject.transform.parent.name =="Perso"){
 			//salleScript.PersoDetecte = true;
 			if (sensTrans.parent.name != "SalleStart")
 			salleScript.peutGenerEnnemis = true;
+			GameObject.Destroy (this.gameObject);
+			//Debug.Log("Mesure: " + sensTrans.GetComponent <BoxCollider2D>().size.x);
+		}*/
+		//script a utilise avec premier prefab perso
+
+		if (Other.gameObject.name == "Perso") {
+			if (sensTrans.parent.name != "SalleStart")
+				salleScript.peutGenerEnnemis = true;
 			GameObject.Destroy (this.gameObject);
 			//Debug.Log("Mesure: " + sensTrans.GetComponent <BoxCollider2D>().size.x);
 		}

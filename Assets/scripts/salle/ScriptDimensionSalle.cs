@@ -6,10 +6,10 @@ public class ScriptDimensionSalle : MonoBehaviour {
 	private Transform _salle;
 	private Transform _pointInstantiation;
 	//les limites du random
-	public float maxX;
-	public float minX;
-	public float maxY;
-	public float minY;
+	private float maxX;
+	private float minX;
+	private float maxY;
+	private float minY;
 	public float ratioX=6f;//constante
 	public float ratioY=4f;//constante
 
