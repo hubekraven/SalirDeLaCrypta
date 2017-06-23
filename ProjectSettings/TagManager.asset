@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - champignon
+  - salleperso
+  - projSupMasque
+  - momie
+  - zonetaupe
+  - champMonstre
+  - miniboss
+  - taupe
+  - ennemiordinaire
+  - detruire
+  - sallemomie
+  - FinishChamp
+  - Finishmomie
+  - masque
+  - FinishMasque
+  - zonechampignon
+  - detruireProjChamp
+  - detruireProjTaupe
+  - zonemasque
+  - bouclier
+  - collisionsalle
+  - projNahuaYucan
+  - ennemis
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - perso
+  - monde
+  - projectile
+  - ennemi
+  - protegePorte
+  - boss
+  - miniboss
+  - bombe
+  - senseurs
+  - projectilEnnemis
+  - detecteurCollision
+  - objetSalle
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: monde
+    uniqueID: 920419537
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: items
+    uniqueID: 1064580611
+    locked: 0
+  - name: perso
+    uniqueID: 3822592085
+    locked: 0
+  - name: ennemi
+    uniqueID: 2883446727
+    locked: 0
+  - name: dessusPassage
+    uniqueID: 2191096975
+    locked: 0
+  - name: miniboss
+    uniqueID: 4065018213
+    locked: 0
+  - name: objets
+    uniqueID: 1291114255
+    locked: 0
+  - name: boss
+    uniqueID: 4046888463
+    locked: 0

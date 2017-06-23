@@ -1,0 +1,977 @@
+fileFormatVersion: 2
+guid: f1239667242d8114cbabd30cc22520ea
+timeCreated: 1484627939
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CheuveuxSerpent_0
+    21300002: CheuveuxSerpent_1
+    21300004: CheuveuxSerpent_2
+    21300006: CheuveuxSerpent_3
+    21300008: CheuveuxSerpent_4
+    21300010: CheuveuxSerpent_5
+    21300012: CheuveuxSerpent_6
+    21300014: CheuveuxSerpent_7
+    21300016: CheuveuxSerpent_8
+    21300018: CheuveuxSerpent_9
+    21300020: CheuveuxSerpent_10
+    21300022: CheuveuxSerpent_11
+    21300024: CheuveuxSerpent_12
+    21300026: CheuveuxSerpent_13
+    21300028: CheuveuxSerpent_14
+    21300030: CheuveuxSerpent_15
+    21300032: CheuveuxSerpent_16
+    21300034: CheuveuxSerpent_17
+    21300036: CheuveuxSerpent_18
+    21300038: CheuveuxSerpent_19
+    21300040: CheuveuxSerpent_20
+    21300042: CheuveuxSerpent_21
+    21300044: CheuveuxSerpent_22
+    21300046: CheuveuxSerpent_23
+    21300048: CheuveuxSerpent_24
+    21300050: CheuveuxSerpent_25
+    21300052: CheuveuxSerpent_26
+    21300054: CheuveuxSerpent_27
+    21300056: CheuveuxSerpent_28
+    21300058: CheuveuxSerpent_29
+    21300060: CheuveuxSerpent_30
+    21300062: CheuveuxSerpent_31
+    21300064: CheuveuxSerpent_32
+    21300066: CheuveuxSerpent_33
+    21300068: CheuveuxSerpent_34
+    21300070: CheuveuxSerpent_35
+    21300072: CheuveuxSerpent_36
+    21300074: CheuveuxSerpent_37
+    21300076: CheuveuxSerpent_38
+    21300078: CheuveuxSerpent_39
+    21300080: CheuveuxSerpent_40
+    21300082: CheuveuxSerpent_41
+    21300084: CheuveuxSerpent_42
+    21300086: CheuveuxSerpent_43
+    21300088: CheuveuxSerpent_44
+    21300090: CheuveuxSerpent_45
+    21300092: CheuveuxSerpent_46
+    21300094: CheuveuxSerpent_47
+    21300096: CheuveuxSerpent_48
+    21300098: CheuveuxSerpent_49
+    21300100: CheuveuxSerpent_50
+    21300102: CheuveuxSerpent_51
+    21300104: CheuveuxSerpent_52
+    21300106: CheuveuxSerpent_53
+    21300108: CheuveuxSerpent_54
+    21300110: CheuveuxSerpent_55
+    21300112: CheuveuxSerpent_56
+    21300114: CheuveuxSerpent_57
+    21300116: CheuveuxSerpent_58
+    21300118: CheuveuxSerpent_59
+    21300120: CheuveuxSerpent_60
+    21300122: CheuveuxSerpent_61
+    21300124: CheuveuxSerpent_62
+    21300126: CheuveuxSerpent_63
+    21300128: CheuveuxSerpent_64
+    21300130: CheuveuxSerpent_65
+    21300132: CheuveuxSerpent_66
+    21300134: CheuveuxSerpent_67
+    21300136: CheuveuxSerpent_68
+    21300138: CheuveuxSerpent_69
+    21300140: CheuveuxSerpent_70
+    21300142: CheuveuxSerpent_71
+    21300144: CheuveuxSerpent_72
+    21300146: CheuveuxSerpent_73
+    21300148: CheuveuxSerpent_74
+    21300150: CheuveuxSerpent_75
+    21300152: CheuveuxSerpent_76
+    21300154: CheuveuxSerpent_77
+    21300156: CheuveuxSerpent_78
+    21300158: CheuveuxSerpent_79
+    21300160: CheuveuxSerpent_80
+    21300162: CheuveuxSerpent_81
+    21300164: CheuveuxSerpent_82
+    21300166: CheuveuxSerpent_83
+    21300168: CheuveuxSerpent_84
+    21300170: CheuveuxSerpent_85
+    21300172: CheuveuxSerpent_86
+    21300174: CheuveuxSerpent_87
+    21300176: CheuveuxSerpent_88
+    21300178: CheuveuxSerpent_89
+    21300180: CheuveuxSerpent_90
+    21300182: CheuveuxSerpent_91
+    21300184: CheuveuxSerpent_92
+    21300186: CheuveuxSerpent_93
+    21300188: CheuveuxSerpent_94
+    21300190: CheuveuxSerpent_95
+    21300192: CheuveuxSerpent_96
+    21300194: CheuveuxSerpent_97
+    21300196: CheuveuxSerpent_98
+    21300198: CheuveuxSerpent_99
+    21300200: CheuveuxSerpent_100
+    21300202: CheuveuxSerpent_101
+    21300204: CheuveuxSerpent_102
+    21300206: CheuveuxSerpent_103
+    21300208: CheuveuxSerpent_104
+    21300210: CheuveuxSerpent_105
+    21300212: CheuveuxSerpent_106
+    21300214: CheuveuxSerpent_107
+    21300216: CheuveuxSerpent_108
+    21300218: CheuveuxSerpent_109
+    21300220: CheuveuxSerpent_110
+    21300222: CheuveuxSerpent_111
+    21300224: CheuveuxSerpent_112
+    21300226: CheuveuxSerpent_113
+    21300228: CheuveuxSerpent_114
+    21300230: CheuveuxSerpent_115
+    21300232: CheuveuxSerpent_116
+    21300234: CheuveuxSerpent_117
+    21300236: CheuveuxSerpent_118
+    21300238: CheuveuxSerpent_119
+    21300240: CheuveuxSerpent_120
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CheuveuxSerpent_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1727
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1727
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_2
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1727
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_3
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1727
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_4
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1727
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_5
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1727
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_6
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1727
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_7
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1727
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_8
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1727
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_9
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1727
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1406
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_11
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1406
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_12
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1406
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_13
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1406
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_14
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1406
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_15
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1406
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_16
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1406
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_17
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1406
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_18
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1406
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_19
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1406
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1085
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_21
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1085
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_22
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1085
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_23
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1085
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_24
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1085
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_25
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1085
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_26
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1085
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_27
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1085
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_28
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1085
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_29
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 1085
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 764
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_31
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 764
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_32
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 764
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_33
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 764
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_34
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 764
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_35
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 764
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_36
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 764
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_37
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 764
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_38
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 764
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_39
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 764
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 443
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_41
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 443
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_42
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 443
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_43
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 443
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_44
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 443
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_45
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 443
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_46
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 443
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_47
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 443
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_48
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 443
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_49
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 443
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 122
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_51
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 122
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_52
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 122
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_53
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 122
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_54
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 122
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_55
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 122
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_56
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 122
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_57
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 122
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_58
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 122
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CheuveuxSerpent_59
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 122
+        width: 199
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

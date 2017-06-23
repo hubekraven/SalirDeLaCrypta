@@ -1,0 +1,320 @@
+fileFormatVersion: 2
+guid: 0d60d30e59cd964479faf780195636b3
+timeCreated: 1484499476
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: femmeCoteAnim_0
+    21300002: femmeCoteAnim_1
+    21300004: femmeCoteAnim_2
+    21300006: femmeCoteAnim_3
+    21300008: femmeCoteAnim_4
+    21300010: femmeCoteAnim_5
+    21300012: femmeCoteAnim_6
+    21300014: femmeCoteAnim_7
+    21300016: femmeCoteAnim_8
+    21300018: femmeCoteAnim_9
+    21300020: femmeCoteAnim_10
+    21300022: femmeCoteAnim_11
+    21300024: femmeCoteAnim_12
+    21300026: femmeCoteAnim_13
+    21300028: femmeCoteAnim_14
+    21300030: femmeCoteAnim_15
+    21300032: femmeCoteAnim_16
+    21300034: femmeCoteAnim_17
+    21300036: femmeCoteAnim_18
+    21300038: femmeCoteAnim_19
+    21300040: femmeCoteAnim_20
+    21300042: femmeCoteAnim_21
+    21300044: femmeCoteAnim_22
+    21300046: femmeCoteAnim_23
+    21300048: femmeCoteAnim_24
+    21300050: femmeCoteAnim_25
+    21300052: femmeCoteAnim_26
+    21300054: femmeCoteAnim_27
+    21300056: femmeCoteAnim_28
+    21300058: femmeCoteAnim_29
+    21300060: femmeCoteAnim_30
+    21300062: femmeCoteAnim_31
+    21300064: femmeCoteAnim_32
+    21300066: femmeCoteAnim_33
+    21300068: femmeCoteAnim_34
+    21300070: femmeCoteAnim_35
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: femmeCoteAnim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 815
+        width: 106
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeCoteAnim_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 815
+        width: 106
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeCoteAnim_2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 815
+        width: 106
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeCoteAnim_3
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 815
+        width: 106
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeCoteAnim_4
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 815
+        width: 106
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeCoteAnim_5
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 815
+        width: 106
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeCoteAnim_6
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 815
+        width: 106
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeCoteAnim_7
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 815
+        width: 106
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeCoteAnim_8
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 815
+        width: 106
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeCoteAnim_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 606
+        width: 106
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeCoteAnim_10
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 606
+        width: 106
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeCoteAnim_11
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 606
+        width: 106
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeCoteAnim_12
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 606
+        width: 106
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeCoteAnim_13
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 606
+        width: 106
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeCoteAnim_14
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 606
+        width: 106
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeCoteAnim_15
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 606
+        width: 106
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

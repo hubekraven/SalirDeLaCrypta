@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: 975fb59f4270441c38cd1f06f21bce14
+timeCreated: 1481603242
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BossRoueMasque2_0
+    21300002: BossRoueMasque2_1
+    21300004: BossRoueMasque2_2
+    21300006: BossRoueMasque2_3
+    21300008: BossRoueMasque2_4
+    21300010: BossRoueMasque2_5
+    21300012: BossRoueMasque2_6
+    21300014: BossRoueMasque2_7
+    21300016: BossRoueMasque2_8
+    21300018: BossRoueMasque2_9
+    21300020: BossRoueMasque2_10
+    21300022: BossRoueMasque2_11
+    21300024: BossRoueMasque2_12
+    21300026: BossRoueMasque2_13
+    21300028: BossRoueMasque2_14
+    21300030: BossRoueMasque2_15
+    21300032: BossRoueMasque2_16
+    21300034: BossRoueMasque2_17
+    21300036: BossRoueMasque2_18
+    21300038: BossRoueMasque2_19
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossRoueMasque2_0
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 6730
+        width: 1215
+        height: 1216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossRoueMasque2_1
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 6766
+        width: 1152
+        height: 1148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossRoueMasque2_2
+      rect:
+        serializedVersion: 2
+        x: 3786
+        y: 6863
+        width: 959
+        height: 961
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossRoueMasque2_3
+      rect:
+        serializedVersion: 2
+        x: 5462
+        y: 6826
+        width: 1016
+        height: 1020
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossRoueMasque2_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 5040
+        width: 1176
+        height: 1178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossRoueMasque2_5
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 5027
+        width: 1212
+        height: 1211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossRoueMasque2_6
+      rect:
+        serializedVersion: 2
+        x: 3714
+        y: 5078
+        width: 1112
+        height: 1112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossRoueMasque2_7
+      rect:
+        serializedVersion: 2
+        x: 5495
+        y: 5154
+        width: 959
+        height: 958
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossRoueMasque2_8
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 3392
+        width: 1070
+        height: 1073
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossRoueMasque2_9
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 3328
+        width: 1196
+        height: 1200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossRoueMasque2_10
+      rect:
+        serializedVersion: 2
+        x: 3670
+        y: 3326
+        width: 1196
+        height: 1196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossRoueMasque2_11
+      rect:
+        serializedVersion: 2
+        x: 5442
+        y: 3386
+        width: 1068
+        height: 1071
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossRoueMasque2_12
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1738
+        width: 958
+        height: 958
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossRoueMasque2_13
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 1662
+        width: 1115
+        height: 1112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossRoueMasque2_14
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 1614
+        width: 1211
+        height: 1208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossRoueMasque2_15
+      rect:
+        serializedVersion: 2
+        x: 5383
+        y: 1628
+        width: 1179
+        height: 1178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossRoueMasque2_16
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 1022
+        height: 1018
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossRoueMasque2_17
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 26
+        width: 962
+        height: 960
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossRoueMasque2_18
+      rect:
+        serializedVersion: 2
+        x: 3694
+        y: 7
+        width: 1148
+        height: 1082
+      alignment: 9
+      pivot: {x: 0.4938897, y: 0.46110058}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossRoueMasque2_19
+      rect:
+        serializedVersion: 2
+        x: 5366
+        y: 0
+        width: 1216
+        height: 1118
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4498043}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

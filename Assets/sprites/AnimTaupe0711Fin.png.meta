@@ -1,0 +1,1720 @@
+fileFormatVersion: 2
+guid: d0ac91630dda64427839d7daa9c84d3b
+timeCreated: 1478838387
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AnimTaupe0711Fin_0
+    21300002: AnimTaupe0711Fin_1
+    21300004: AnimTaupe0711Fin_2
+    21300006: AnimTaupe0711Fin_3
+    21300008: AnimTaupe0711Fin_4
+    21300010: AnimTaupe0711Fin_5
+    21300012: AnimTaupe0711Fin_6
+    21300014: AnimTaupe0711Fin_7
+    21300016: AnimTaupe0711Fin_8
+    21300018: AnimTaupe0711Fin_9
+    21300020: AnimTaupe0711Fin_10
+    21300022: AnimTaupe0711Fin_11
+    21300024: AnimTaupe0711Fin_12
+    21300026: AnimTaupe0711Fin_13
+    21300028: AnimTaupe0711Fin_14
+    21300030: AnimTaupe0711Fin_15
+    21300032: AnimTaupe0711Fin_16
+    21300034: AnimTaupe0711Fin_17
+    21300036: AnimTaupe0711Fin_18
+    21300038: AnimTaupe0711Fin_19
+    21300040: AnimTaupe0711Fin_20
+    21300042: AnimTaupe0711Fin_21
+    21300044: AnimTaupe0711Fin_22
+    21300046: AnimTaupe0711Fin_23
+    21300048: AnimTaupe0711Fin_24
+    21300050: AnimTaupe0711Fin_25
+    21300052: AnimTaupe0711Fin_26
+    21300054: AnimTaupe0711Fin_27
+    21300056: AnimTaupe0711Fin_28
+    21300058: AnimTaupe0711Fin_29
+    21300060: AnimTaupe0711Fin_30
+    21300062: AnimTaupe0711Fin_31
+    21300064: AnimTaupe0711Fin_32
+    21300066: AnimTaupe0711Fin_33
+    21300068: AnimTaupe0711Fin_34
+    21300070: AnimTaupe0711Fin_35
+    21300072: AnimTaupe0711Fin_36
+    21300074: AnimTaupe0711Fin_37
+    21300076: AnimTaupe0711Fin_38
+    21300078: AnimTaupe0711Fin_39
+    21300080: AnimTaupe0711Fin_40
+    21300082: AnimTaupe0711Fin_41
+    21300084: AnimTaupe0711Fin_42
+    21300086: AnimTaupe0711Fin_43
+    21300088: AnimTaupe0711Fin_44
+    21300090: AnimTaupe0711Fin_45
+    21300092: AnimTaupe0711Fin_46
+    21300094: AnimTaupe0711Fin_47
+    21300096: AnimTaupe0711Fin_48
+    21300098: AnimTaupe0711Fin_49
+    21300100: AnimTaupe0711Fin_50
+    21300102: AnimTaupe0711Fin_51
+    21300104: AnimTaupe0711Fin_52
+    21300106: AnimTaupe0711Fin_53
+    21300108: AnimTaupe0711Fin_54
+    21300110: AnimTaupe0711Fin_55
+    21300112: AnimTaupe0711Fin_56
+    21300114: AnimTaupe0711Fin_57
+    21300116: AnimTaupe0711Fin_58
+    21300118: AnimTaupe0711Fin_59
+    21300120: AnimTaupe0711Fin_60
+    21300122: AnimTaupe0711Fin_61
+    21300124: AnimTaupe0711Fin_62
+    21300126: AnimTaupe0711Fin_63
+    21300128: AnimTaupe0711Fin_64
+    21300130: AnimTaupe0711Fin_65
+    21300132: AnimTaupe0711Fin_66
+    21300134: AnimTaupe0711Fin_67
+    21300136: AnimTaupe0711Fin_68
+    21300138: AnimTaupe0711Fin_69
+    21300140: AnimTaupe0711Fin_70
+    21300142: AnimTaupe0711Fin_71
+    21300144: AnimTaupe0711Fin_72
+    21300146: AnimTaupe0711Fin_73
+    21300148: AnimTaupe0711Fin_74
+    21300150: AnimTaupe0711Fin_75
+    21300152: AnimTaupe0711Fin_76
+    21300154: AnimTaupe0711Fin_77
+    21300156: AnimTaupe0711Fin_78
+    21300158: AnimTaupe0711Fin_79
+    21300160: AnimTaupe0711Fin_80
+    21300162: AnimTaupe0711Fin_81
+    21300164: AnimTaupe0711Fin_82
+    21300166: AnimTaupe0711Fin_83
+    21300168: AnimTaupe0711Fin_84
+    21300170: AnimTaupe0711Fin_85
+    21300172: AnimTaupe0711Fin_86
+    21300174: AnimTaupe0711Fin_87
+    21300176: AnimTaupe0711Fin_88
+    21300178: AnimTaupe0711Fin_89
+    21300180: AnimTaupe0711Fin_90
+    21300182: AnimTaupe0711Fin_91
+    21300184: AnimTaupe0711Fin_92
+    21300186: AnimTaupe0711Fin_93
+    21300188: AnimTaupe0711Fin_94
+    21300190: AnimTaupe0711Fin_95
+    21300192: AnimTaupe0711Fin_96
+    21300194: AnimTaupe0711Fin_97
+    21300196: AnimTaupe0711Fin_98
+    21300198: AnimTaupe0711Fin_99
+    21300200: AnimTaupe0711Fin_100
+    21300202: AnimTaupe0711Fin_101
+    21300204: AnimTaupe0711Fin_102
+    21300206: AnimTaupe0711Fin_103
+    21300208: AnimTaupe0711Fin_104
+    21300210: AnimTaupe0711Fin_105
+    21300212: AnimTaupe0711Fin_106
+    21300214: AnimTaupe0711Fin_107
+    21300216: AnimTaupe0711Fin_108
+    21300218: AnimTaupe0711Fin_109
+    21300220: AnimTaupe0711Fin_110
+    21300222: AnimTaupe0711Fin_111
+    21300224: AnimTaupe0711Fin_112
+    21300226: AnimTaupe0711Fin_113
+    21300228: AnimTaupe0711Fin_114
+    21300230: AnimTaupe0711Fin_115
+    21300232: AnimTaupe0711Fin_116
+    21300234: AnimTaupe0711Fin_117
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 127, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1955
+        width: 189
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1937
+        width: 189
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_2
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1939
+        width: 189
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_3
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1939
+        width: 189
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_4
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1939
+        width: 189
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_5
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1931
+        width: 189
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_6
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1931
+        width: 189
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_7
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1931
+        width: 189
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_8
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 1921
+        width: 189
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_9
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1921
+        width: 189
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1793
+        width: 189
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1793
+        width: 189
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_12
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1793
+        width: 189
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_13
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1793
+        width: 189
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_14
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1794
+        width: 200
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_15
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1794
+        width: 200
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_16
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1794
+        width: 200
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_17
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1790
+        width: 189
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_18
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 1790
+        width: 189
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_19
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 1790
+        width: 189
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1672
+        width: 189
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1672
+        width: 189
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_22
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1672
+        width: 189
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_23
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1672
+        width: 189
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_24
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1672
+        width: 189
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_25
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1672
+        width: 189
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_26
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1672
+        width: 189
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_27
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1672
+        width: 189
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_28
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 1672
+        width: 189
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_29
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1672
+        width: 189
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1525
+        width: 189
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1525
+        width: 189
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_32
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1541
+        width: 189
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_33
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1541
+        width: 189
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_34
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1541
+        width: 189
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_35
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1541
+        width: 189
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_36
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1541
+        width: 189
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_37
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1551
+        width: 189
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_38
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 1553
+        width: 189
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_39
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1556
+        width: 189
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1406
+        width: 189
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_41
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1401
+        width: 189
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_42
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1395
+        width: 189
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_43
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1393
+        width: 189
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_44
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1390
+        width: 189
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_45
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1388
+        width: 189
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_46
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1385
+        width: 189
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_47
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1383
+        width: 189
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_48
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 1380
+        width: 189
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_49
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1378
+        width: 189
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1078
+        width: 189
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1078
+        width: 189
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_52
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1078
+        width: 189
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_53
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1078
+        width: 189
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_54
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1078
+        width: 189
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_55
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1078
+        width: 189
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_56
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1078
+        width: 189
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_57
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1078
+        width: 189
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_58
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 1078
+        width: 189
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_59
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1078
+        width: 189
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 789
+        width: 189
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_61
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 792
+        width: 189
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_62
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 928
+        width: 189
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_63
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 928
+        width: 189
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_64
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 800
+        width: 189
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_65
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 805
+        width: 189
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_66
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 811
+        width: 189
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_67
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 931
+        width: 189
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_68
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 934
+        width: 189
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_69
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 936
+        width: 189
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_70
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 795
+        width: 189
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_71
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 797
+        width: 189
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_72
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 812
+        width: 189
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_73
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 809
+        width: 189
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_74
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 807
+        width: 189
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_75
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 666
+        width: 189
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 666
+        width: 189
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_77
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 666
+        width: 189
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_78
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 666
+        width: 189
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_79
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 667
+        width: 189
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_80
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 670
+        width: 189
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_81
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 673
+        width: 189
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_82
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 677
+        width: 189
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_83
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 679
+        width: 189
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_84
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 682
+        width: 189
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_85
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 560
+        width: 189
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 560
+        width: 189
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_87
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 560
+        width: 189
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_88
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 560
+        width: 189
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_89
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 560
+        width: 189
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_90
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 560
+        width: 189
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_91
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 560
+        width: 189
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_92
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 560
+        width: 189
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_93
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 560
+        width: 189
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_94
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 560
+        width: 189
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_95
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 446
+        width: 189
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_96
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 446
+        width: 189
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_97
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 444
+        width: 189
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_98
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 444
+        width: 189
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_99
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 429
+        width: 189
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_100
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 429
+        width: 189
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_101
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 429
+        width: 189
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_102
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 429
+        width: 189
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_103
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 413
+        width: 189
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_104
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 413
+        width: 189
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_105
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 295
+        width: 189
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_106
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 295
+        width: 189
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_107
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 295
+        width: 189
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_108
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 295
+        width: 189
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_109
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 295
+        width: 189
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_110
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 282
+        width: 189
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_111
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 286
+        width: 200
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_112
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 384
+        width: 93
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_113
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 285
+        width: 189
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_114
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 285
+        width: 189
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_115
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 285
+        width: 189
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_116
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 164
+        width: 189
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimTaupe0711Fin_117
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 172
+        width: 189
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

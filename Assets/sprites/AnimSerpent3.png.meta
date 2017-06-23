@@ -1,0 +1,1406 @@
+fileFormatVersion: 2
+guid: 9fc88ab469fe141cb8962daa543126f0
+timeCreated: 1483136858
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AnimSerpent3_0
+    21300002: AnimSerpent3_1
+    21300004: AnimSerpent3_2
+    21300006: AnimSerpent3_3
+    21300008: AnimSerpent3_4
+    21300010: AnimSerpent3_5
+    21300012: AnimSerpent3_6
+    21300014: AnimSerpent3_7
+    21300016: AnimSerpent3_8
+    21300018: AnimSerpent3_9
+    21300020: AnimSerpent3_10
+    21300022: AnimSerpent3_11
+    21300024: AnimSerpent3_12
+    21300026: AnimSerpent3_13
+    21300028: AnimSerpent3_14
+    21300030: AnimSerpent3_15
+    21300032: AnimSerpent3_16
+    21300034: AnimSerpent3_17
+    21300036: AnimSerpent3_18
+    21300038: AnimSerpent3_19
+    21300040: AnimSerpent3_20
+    21300042: AnimSerpent3_21
+    21300044: AnimSerpent3_22
+    21300046: AnimSerpent3_23
+    21300048: AnimSerpent3_24
+    21300050: AnimSerpent3_25
+    21300052: AnimSerpent3_26
+    21300054: AnimSerpent3_27
+    21300056: AnimSerpent3_28
+    21300058: AnimSerpent3_29
+    21300060: AnimSerpent3_30
+    21300062: AnimSerpent3_31
+    21300064: AnimSerpent3_32
+    21300066: AnimSerpent3_33
+    21300068: AnimSerpent3_34
+    21300070: AnimSerpent3_35
+    21300072: AnimSerpent3_36
+    21300074: AnimSerpent3_37
+    21300076: AnimSerpent3_38
+    21300078: AnimSerpent3_39
+    21300080: AnimSerpent3_40
+    21300082: AnimSerpent3_41
+    21300084: AnimSerpent3_42
+    21300086: AnimSerpent3_43
+    21300088: AnimSerpent3_44
+    21300090: AnimSerpent3_45
+    21300092: AnimSerpent3_46
+    21300094: AnimSerpent3_47
+    21300096: AnimSerpent3_48
+    21300098: AnimSerpent3_49
+    21300100: AnimSerpent3_50
+    21300102: AnimSerpent3_51
+    21300104: AnimSerpent3_52
+    21300106: AnimSerpent3_53
+    21300108: AnimSerpent3_54
+    21300110: AnimSerpent3_55
+    21300112: AnimSerpent3_56
+    21300114: AnimSerpent3_57
+    21300116: AnimSerpent3_58
+    21300118: AnimSerpent3_59
+    21300120: AnimSerpent3_60
+    21300122: AnimSerpent3_61
+    21300124: AnimSerpent3_62
+    21300126: AnimSerpent3_63
+    21300128: AnimSerpent3_64
+    21300130: AnimSerpent3_65
+    21300132: AnimSerpent3_66
+    21300134: AnimSerpent3_67
+    21300136: AnimSerpent3_68
+    21300138: AnimSerpent3_69
+    21300140: AnimSerpent3_70
+    21300142: AnimSerpent3_71
+    21300144: AnimSerpent3_72
+    21300146: AnimSerpent3_73
+    21300148: AnimSerpent3_74
+    21300150: AnimSerpent3_75
+    21300152: AnimSerpent3_76
+    21300154: AnimSerpent3_77
+    21300156: AnimSerpent3_78
+    21300158: AnimSerpent3_79
+    21300160: AnimSerpent3_80
+    21300162: AnimSerpent3_81
+    21300164: AnimSerpent3_82
+    21300166: AnimSerpent3_83
+    21300168: AnimSerpent3_84
+    21300170: AnimSerpent3_85
+    21300172: AnimSerpent3_86
+    21300174: AnimSerpent3_87
+    21300176: AnimSerpent3_88
+    21300178: AnimSerpent3_89
+    21300180: AnimSerpent3_90
+    21300182: AnimSerpent3_91
+    21300184: AnimSerpent3_92
+    21300186: AnimSerpent3_93
+    21300188: AnimSerpent3_94
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AnimSerpent3_0
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 7890
+        width: 551
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_1
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 7890
+        width: 544
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_2
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 7891
+        width: 548
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_3
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 7888
+        width: 548
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_4
+      rect:
+        serializedVersion: 2
+        x: 3254
+        y: 7888
+        width: 544
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_5
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 7594
+        width: 548
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_6
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 7594
+        width: 552
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_7
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 7594
+        width: 544
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_8
+      rect:
+        serializedVersion: 2
+        x: 2463
+        y: 7594
+        width: 547
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_9
+      rect:
+        serializedVersion: 2
+        x: 3226
+        y: 7594
+        width: 548
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_10
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 7290
+        width: 554
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_11
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 7290
+        width: 547
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_12
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 7290
+        width: 550
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_13
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 7290
+        width: 544
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_14
+      rect:
+        serializedVersion: 2
+        x: 3202
+        y: 7286
+        width: 544
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_15
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 6986
+        width: 551
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_16
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 6976
+        width: 544
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_17
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 6986
+        width: 548
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_18
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 6986
+        width: 546
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_19
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 6987
+        width: 560
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 6688
+        width: 548
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_21
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 6687
+        width: 544
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_22
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 6688
+        width: 560
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_23
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 6688
+        width: 551
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_24
+      rect:
+        serializedVersion: 2
+        x: 3230
+        y: 6687
+        width: 552
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_25
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 6383
+        width: 548
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_26
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 6390
+        width: 546
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_27
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 6383
+        width: 551
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_28
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 6386
+        width: 548
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_29
+      rect:
+        serializedVersion: 2
+        x: 3262
+        y: 6386
+        width: 548
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_30
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 6086
+        width: 548
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_31
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 6086
+        width: 555
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_32
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 6138
+        width: 625
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_33
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 6158
+        width: 780
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_34
+      rect:
+        serializedVersion: 2
+        x: 3166
+        y: 6158
+        width: 676
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_35
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 5858
+        width: 676
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_36
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 5856
+        width: 676
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_37
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 5858
+        width: 676
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_38
+      rect:
+        serializedVersion: 2
+        x: 2398
+        y: 5856
+        width: 672
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_39
+      rect:
+        serializedVersion: 2
+        x: 3166
+        y: 5858
+        width: 674
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_40
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 5558
+        width: 668
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_41
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 5552
+        width: 667
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_42
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 5558
+        width: 666
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_43
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 5558
+        width: 660
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_44
+      rect:
+        serializedVersion: 2
+        x: 3078
+        y: 5552
+        width: 752
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 5258
+        width: 662
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_46
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 5258
+        width: 662
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_47
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 5258
+        width: 652
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_48
+      rect:
+        serializedVersion: 2
+        x: 2414
+        y: 5258
+        width: 648
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_49
+      rect:
+        serializedVersion: 2
+        x: 3182
+        y: 5258
+        width: 647
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_50
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 4958
+        width: 643
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_51
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 4958
+        width: 643
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_52
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 4954
+        width: 636
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_53
+      rect:
+        serializedVersion: 2
+        x: 2426
+        y: 4954
+        width: 632
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_54
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 4950
+        width: 628
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 4640
+        width: 626
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_56
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 4646
+        width: 626
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_57
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 4642
+        width: 620
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_58
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 4638
+        width: 619
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_59
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 4638
+        width: 616
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_60
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 4334
+        width: 612
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_61
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 4330
+        width: 611
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_62
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 4320
+        width: 609
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_63
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 4319
+        width: 609
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_64
+      rect:
+        serializedVersion: 2
+        x: 3226
+        y: 4322
+        width: 596
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_65
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 4015
+        width: 596
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_66
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 4014
+        width: 592
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_67
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 4011
+        width: 590
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_68
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 4010
+        width: 588
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_69
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 4000
+        width: 592
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_70
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 3695
+        width: 580
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_71
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 3696
+        width: 580
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_72
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 3694
+        width: 579
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_73
+      rect:
+        serializedVersion: 2
+        x: 2479
+        y: 3690
+        width: 575
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_74
+      rect:
+        serializedVersion: 2
+        x: 3247
+        y: 3679
+        width: 575
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_75
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 3376
+        width: 574
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_76
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 3378
+        width: 564
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_77
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 3374
+        width: 656
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_78
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 3370
+        width: 544
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_79
+      rect:
+        serializedVersion: 2
+        x: 3194
+        y: 3374
+        width: 551
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_80
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 3072
+        width: 544
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_81
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 3072
+        width: 544
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_82
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 3072
+        width: 550
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_83
+      rect:
+        serializedVersion: 2
+        x: 2446
+        y: 3072
+        width: 548
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_84
+      rect:
+        serializedVersion: 2
+        x: 3215
+        y: 3072
+        width: 551
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_85
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 2778
+        width: 548
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_86
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 2778
+        width: 547
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_87
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 2778
+        width: 544
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_88
+      rect:
+        serializedVersion: 2
+        x: 2474
+        y: 2778
+        width: 552
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_89
+      rect:
+        serializedVersion: 2
+        x: 3246
+        y: 2778
+        width: 548
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_90
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 2474
+        width: 544
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_91
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 2474
+        width: 551
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_92
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 2474
+        width: 548
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_93
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 2474
+        width: 544
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimSerpent3_94
+      rect:
+        serializedVersion: 2
+        x: 3274
+        y: 2474
+        width: 551
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
