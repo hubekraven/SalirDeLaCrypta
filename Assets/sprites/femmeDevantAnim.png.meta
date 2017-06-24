@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: 6746463523c50d94b9a774f72e757e89
+timeCreated: 1484499388
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: femmeDevantAnim_0
+    21300002: femmeDevantAnim_1
+    21300004: femmeDevantAnim_2
+    21300006: femmeDevantAnim_3
+    21300008: femmeDevantAnim_4
+    21300010: femmeDevantAnim_5
+    21300012: femmeDevantAnim_6
+    21300014: femmeDevantAnim_7
+    21300016: femmeDevantAnim_8
+    21300018: femmeDevantAnim_9
+    21300020: femmeDevantAnim_10
+    21300022: femmeDevantAnim_11
+    21300024: femmeDevantAnim_12
+    21300026: femmeDevantAnim_13
+    21300028: femmeDevantAnim_14
+    21300030: femmeDevantAnim_15
+    21300032: femmeDevantAnim_16
+    21300034: femmeDevantAnim_17
+    21300036: femmeDevantAnim_18
+    21300038: femmeDevantAnim_19
+    21300040: femmeDevantAnim_20
+    21300042: femmeDevantAnim_21
+    21300044: femmeDevantAnim_22
+    21300046: femmeDevantAnim_23
+    21300048: femmeDevantAnim_24
+    21300050: femmeDevantAnim_25
+    21300052: femmeDevantAnim_26
+    21300054: femmeDevantAnim_27
+    21300056: femmeDevantAnim_28
+    21300058: femmeDevantAnim_29
+    21300060: femmeDevantAnim_30
+    21300062: femmeDevantAnim_31
+    21300064: femmeDevantAnim_32
+    21300066: femmeDevantAnim_33
+    21300068: femmeDevantAnim_34
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: femmeDevantAnim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 826
+        width: 135
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeDevantAnim_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 826
+        width: 135
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeDevantAnim_2
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 826
+        width: 135
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeDevantAnim_3
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 826
+        width: 135
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeDevantAnim_4
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 826
+        width: 135
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeDevantAnim_5
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 826
+        width: 135
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeDevantAnim_6
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 826
+        width: 135
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeDevantAnim_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 628
+        width: 135
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeDevantAnim_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 628
+        width: 135
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeDevantAnim_9
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 628
+        width: 135
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeDevantAnim_10
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 628
+        width: 135
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeDevantAnim_11
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 628
+        width: 135
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeDevantAnim_12
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 628
+        width: 135
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeDevantAnim_13
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 628
+        width: 135
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeDevantAnim_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 430
+        width: 135
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: femmeDevantAnim_15
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 430
+        width: 135
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

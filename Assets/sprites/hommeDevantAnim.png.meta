@@ -1,0 +1,303 @@
+fileFormatVersion: 2
+guid: 2cab6afbecc2b8948bc9c4451c350fe4
+timeCreated: 1484499536
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: hommeDevantAnim_0
+    21300002: hommeDevantAnim_1
+    21300004: hommeDevantAnim_2
+    21300006: hommeDevantAnim_3
+    21300008: hommeDevantAnim_4
+    21300010: hommeDevantAnim_5
+    21300012: hommeDevantAnim_6
+    21300014: hommeDevantAnim_7
+    21300016: hommeDevantAnim_8
+    21300018: hommeDevantAnim_9
+    21300020: hommeDevantAnim_10
+    21300022: hommeDevantAnim_11
+    21300024: hommeDevantAnim_12
+    21300026: hommeDevantAnim_13
+    21300028: hommeDevantAnim_14
+    21300030: hommeDevantAnim_15
+    21300032: hommeDevantAnim_16
+    21300034: hommeDevantAnim_17
+    21300036: hommeDevantAnim_18
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hommeDevantAnim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 823
+        width: 129
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hommeDevantAnim_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 823
+        width: 129
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hommeDevantAnim_2
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 823
+        width: 129
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hommeDevantAnim_3
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 823
+        width: 129
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hommeDevantAnim_4
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 823
+        width: 129
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hommeDevantAnim_5
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 823
+        width: 129
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hommeDevantAnim_6
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 823
+        width: 129
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hommeDevantAnim_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 622
+        width: 129
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hommeDevantAnim_8
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 622
+        width: 129
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hommeDevantAnim_9
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 622
+        width: 129
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hommeDevantAnim_10
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 622
+        width: 129
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hommeDevantAnim_11
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 622
+        width: 129
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hommeDevantAnim_12
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 622
+        width: 129
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hommeDevantAnim_13
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 622
+        width: 129
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hommeDevantAnim_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 421
+        width: 129
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: hommeDevantAnim_15
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 421
+        width: 129
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

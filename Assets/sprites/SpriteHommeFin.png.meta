@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: d6303fc9e2088604e965f1383ab34491
+timeCreated: 1484836465
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SpriteHommeFin_0
+    21300002: SpriteHommeFin_1
+    21300004: SpriteHommeFin_2
+    21300006: SpriteHommeFin_3
+    21300008: SpriteHommeFin_4
+    21300010: SpriteHommeFin_5
+    21300012: SpriteHommeFin_6
+    21300014: SpriteHommeFin_7
+    21300016: SpriteHommeFin_8
+    21300018: SpriteHommeFin_9
+    21300020: SpriteHommeFin_10
+    21300022: SpriteHommeFin_11
+    21300024: SpriteHommeFin_12
+    21300026: SpriteHommeFin_13
+    21300028: SpriteHommeFin_14
+    21300030: SpriteHommeFin_15
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteHommeFin_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1707
+        width: 228
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteHommeFin_1
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1707
+        width: 228
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteHommeFin_2
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1707
+        width: 228
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteHommeFin_3
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1707
+        width: 228
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteHommeFin_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1362
+        width: 228
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteHommeFin_5
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1362
+        width: 228
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteHommeFin_6
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1362
+        width: 228
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteHommeFin_7
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1362
+        width: 228
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteHommeFin_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1014
+        width: 228
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteHommeFin_9
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1014
+        width: 228
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteHommeFin_10
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1015
+        width: 228
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteHommeFin_11
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1015
+        width: 228
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteHommeFin_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 667
+        width: 228
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteHommeFin_13
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 667
+        width: 228
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteHommeFin_14
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 667
+        width: 228
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteHommeFin_15
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 667
+        width: 228
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

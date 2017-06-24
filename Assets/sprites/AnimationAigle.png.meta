@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: 6bf558fe4ec4f45158e08405e5bb7737
+timeCreated: 1482780158
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AnimationAigle_0
+    21300002: AnimationAigle_1
+    21300004: AnimationAigle_2
+    21300006: AnimationAigle_3
+    21300008: AnimationAigle_4
+    21300010: AnimationAigle_5
+    21300012: AnimationAigle_6
+    21300014: AnimationAigle_7
+    21300016: AnimationAigle_8
+    21300018: AnimationAigle_9
+    21300020: AnimationAigle_10
+    21300022: AnimationAigle_11
+    21300024: AnimationAigle_12
+    21300026: AnimationAigle_13
+    21300028: AnimationAigle_14
+    21300030: AnimationAigle_15
+    21300032: AnimationAigle_16
+    21300034: AnimationAigle_17
+    21300036: AnimationAigle_18
+    21300038: AnimationAigle_19
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AnimationAigle_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1767
+        width: 401
+        height: 252
+      alignment: 9
+      pivot: {x: 0.4967833, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationAigle_1
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1763
+        width: 426
+        height: 241
+      alignment: 9
+      pivot: {x: 0.49697202, y: 0.5428183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationAigle_2
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1767
+        width: 442
+        height: 241
+      alignment: 9
+      pivot: {x: 0.49708164, y: 0.5321136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationAigle_3
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 1767
+        width: 448
+        height: 242
+      alignment: 9
+      pivot: {x: 0.49136215, y: 0.53198093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationAigle_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1377
+        width: 445
+        height: 242
+      alignment: 9
+      pivot: {x: 0.4942027, y: 0.53198093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationAigle_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1378
+        width: 430
+        height: 242
+      alignment: 9
+      pivot: {x: 0.49400038, y: 0.52132046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationAigle_6
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1361
+        width: 407
+        height: 259
+      alignment: 9
+      pivot: {x: 0.49366134, y: 0.55478317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationAigle_7
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1338
+        width: 398
+        height: 283
+      alignment: 9
+      pivot: {x: 0.493518, y: 0.5866009}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationAigle_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 924
+        width: 387
+        height: 307
+      alignment: 9
+      pivot: {x: 0.49333385, y: 0.61344385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationAigle_9
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 904
+        width: 371
+        height: 328
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6337091}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationAigle_10
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 888
+        width: 347
+        height: 345
+      alignment: 9
+      pivot: {x: 0.50371736, y: 0.65329236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationAigle_11
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 888
+        width: 346
+        height: 345
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.65329236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationAigle_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 518
+        width: 375
+        height: 324
+      alignment: 9
+      pivot: {x: 0.49312052, y: 0.6353596}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationAigle_13
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 545
+        width: 392
+        height: 296
+      alignment: 9
+      pivot: {x: 0.49341878, y: 0.60894406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationAigle_14
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 575
+        width: 403
+        height: 265
+      alignment: 9
+      pivot: {x: 0.49359873, y: 0.5681454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationAigle_15
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 598
+        width: 429
+        height: 242
+      alignment: 9
+      pivot: {x: 0.49097988, y: 0.52665067}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationAigle_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 207
+        width: 447
+        height: 242
+      alignment: 9
+      pivot: {x: 0.49422863, y: 0.5266509}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationAigle_17
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 207
+        width: 447
+        height: 241
+      alignment: 9
+      pivot: {x: 0.4942287, y: 0.53211373}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationAigle_18
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 207
+        width: 431
+        height: 241
+      alignment: 9
+      pivot: {x: 0.4940143, y: 0.53211373}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationAigle_19
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 206
+        width: 400
+        height: 252
+      alignment: 9
+      pivot: {x: 0.4967755, y: 0.515356}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

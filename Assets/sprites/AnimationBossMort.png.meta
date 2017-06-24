@@ -1,0 +1,790 @@
+fileFormatVersion: 2
+guid: 3ba91e38bf8fd46d48e7a9de0b55b129
+timeCreated: 1484529549
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AnimationBossMort_0
+    21300002: AnimationBossMort_1
+    21300004: AnimationBossMort_2
+    21300006: AnimationBossMort_3
+    21300008: AnimationBossMort_4
+    21300010: AnimationBossMort_5
+    21300012: AnimationBossMort_6
+    21300014: AnimationBossMort_7
+    21300016: AnimationBossMort_8
+    21300018: AnimationBossMort_9
+    21300020: AnimationBossMort_10
+    21300022: AnimationBossMort_11
+    21300024: AnimationBossMort_12
+    21300026: AnimationBossMort_13
+    21300028: AnimationBossMort_14
+    21300030: AnimationBossMort_15
+    21300032: AnimationBossMort_16
+    21300034: AnimationBossMort_17
+    21300036: AnimationBossMort_18
+    21300038: AnimationBossMort_19
+    21300040: AnimationBossMort_20
+    21300042: AnimationBossMort_21
+    21300044: AnimationBossMort_22
+    21300046: AnimationBossMort_23
+    21300048: AnimationBossMort_24
+    21300050: AnimationBossMort_25
+    21300052: AnimationBossMort_26
+    21300054: AnimationBossMort_27
+    21300056: AnimationBossMort_28
+    21300058: AnimationBossMort_29
+    21300060: AnimationBossMort_30
+    21300062: AnimationBossMort_31
+    21300064: AnimationBossMort_32
+    21300066: AnimationBossMort_33
+    21300068: AnimationBossMort_34
+    21300070: AnimationBossMort_35
+    21300072: AnimationBossMort_36
+    21300074: AnimationBossMort_37
+    21300076: AnimationBossMort_38
+    21300078: AnimationBossMort_39
+    21300080: AnimationBossMort_40
+    21300082: AnimationBossMort_41
+    21300084: AnimationBossMort_42
+    21300086: AnimationBossMort_43
+    21300088: AnimationBossMort_44
+    21300090: AnimationBossMort_45
+    21300092: AnimationBossMort_46
+    21300094: AnimationBossMort_47
+    21300096: AnimationBossMort_48
+    21300098: AnimationBossMort_49
+    21300100: AnimationBossMort_50
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AnimationBossMort_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3831
+        width: 343
+        height: 265
+      alignment: 9
+      pivot: {x: 0.46930718, y: 0.45255658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 3830
+        width: 337
+        height: 266
+      alignment: 9
+      pivot: {x: 0.49002782, y: 0.45273677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_2
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 3835
+        width: 342
+        height: 261
+      alignment: 9
+      pivot: {x: 0.47519654, y: 0.44228926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_3
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 3837
+        width: 340
+        height: 258
+      alignment: 9
+      pivot: {x: 0.4883886, y: 0.4291396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3568
+        width: 340
+        height: 261
+      alignment: 9
+      pivot: {x: 0.47463384, y: 0.42041296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_5
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 3570
+        width: 341
+        height: 259
+      alignment: 9
+      pivot: {x: 0.4729863, y: 0.41409078}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_6
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 3566
+        width: 340
+        height: 261
+      alignment: 9
+      pivot: {x: 0.48451826, y: 0.42204055}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3301
+        width: 341
+        height: 260
+      alignment: 9
+      pivot: {x: 0.4691272, y: 0.38965783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_8
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 3301
+        width: 342
+        height: 260
+      alignment: 9
+      pivot: {x: 0.4807609, y: 0.3992366}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_9
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 3301
+        width: 344
+        height: 260
+      alignment: 9
+      pivot: {x: 0.47534037, y: 0.39472}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_10
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 3301
+        width: 338
+        height: 260
+      alignment: 9
+      pivot: {x: 0.47663978, y: 0.40203953}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_11
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 3301
+        width: 340
+        height: 260
+      alignment: 9
+      pivot: {x: 0.47892097, y: 0.40203953}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3035
+        width: 339
+        height: 261
+      alignment: 9
+      pivot: {x: 0.46721295, y: 0.38558128}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_13
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 3035
+        width: 342
+        height: 262
+      alignment: 9
+      pivot: {x: 0.4807609, y: 0.37875435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_14
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 3035
+        width: 345
+        height: 262
+      alignment: 9
+      pivot: {x: 0.4775242, y: 0.3765133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_15
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 3032
+        width: 341
+        height: 265
+      alignment: 9
+      pivot: {x: 0.48430556, y: 0.43272865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_16
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 3035
+        width: 341
+        height: 262
+      alignment: 9
+      pivot: {x: 0.49165267, y: 0.43412584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2769
+        width: 341
+        height: 264
+      alignment: 9
+      pivot: {x: 0.47748616, y: 0.44496664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_18
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 2767
+        width: 345
+        height: 266
+      alignment: 9
+      pivot: {x: 0.48020107, y: 0.48067895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_19
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 2503
+        width: 345
+        height: 265
+      alignment: 9
+      pivot: {x: 0.48262993, y: 0.4782678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_20
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 2771
+        width: 342
+        height: 260
+      alignment: 9
+      pivot: {x: 0.47166756, y: 0.47475117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_21
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 2771
+        width: 344
+        height: 262
+      alignment: 9
+      pivot: {x: 0.47461116, y: 0.47311938}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_22
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 2503
+        width: 340
+        height: 262
+      alignment: 9
+      pivot: {x: 0.47741985, y: 0.4717123}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_23
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 2503
+        width: 342
+        height: 262
+      alignment: 9
+      pivot: {x: 0.4730653, y: 0.4757779}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_24
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 2503
+        width: 345
+        height: 262
+      alignment: 9
+      pivot: {x: 0.4722557, y: 0.4707553}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2237
+        width: 340
+        height: 262
+      alignment: 9
+      pivot: {x: 0.4729068, y: 0.46947217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_26
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 2237
+        width: 341
+        height: 262
+      alignment: 9
+      pivot: {x: 0.4807044, y: 0.4690221}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_27
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 2237
+        width: 340
+        height: 262
+      alignment: 9
+      pivot: {x: 0.47431228, y: 0.47263762}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_28
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 2237
+        width: 340
+        height: 261
+      alignment: 9
+      pivot: {x: 0.47677684, y: 0.48666394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_29
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 2237
+        width: 340
+        height: 261
+      alignment: 9
+      pivot: {x: 0.47786146, y: 0.46623468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1971
+        width: 339
+        height: 262
+      alignment: 9
+      pivot: {x: 0.47982526, y: 0.49116528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_31
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1964
+        width: 339
+        height: 261
+      alignment: 9
+      pivot: {x: 0.50314194, y: 0.5076694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_32
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1972
+        width: 342
+        height: 261
+      alignment: 9
+      pivot: {x: 0.48108017, y: 0.48021057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_33
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1971
+        width: 340
+        height: 262
+      alignment: 9
+      pivot: {x: 0.48205352, y: 0.4925388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_34
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1971
+        width: 345
+        height: 261
+      alignment: 9
+      pivot: {x: 0.4746844, y: 0.48021057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1704
+        width: 338
+        height: 261
+      alignment: 9
+      pivot: {x: 0.47837707, y: 0.47417393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_36
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1704
+        width: 344
+        height: 264
+      alignment: 9
+      pivot: {x: 0.47916582, y: 0.45423704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_37
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1707
+        width: 342
+        height: 262
+      alignment: 9
+      pivot: {x: 0.48142496, y: 0.47283235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1439
+        width: 340
+        height: 262
+      alignment: 9
+      pivot: {x: 0.47603947, y: 0.4740442}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_39
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1173
+        width: 343
+        height: 264
+      alignment: 9
+      pivot: {x: 0.47517425, y: 0.45607966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_40
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 3834
+        width: 351
+        height: 262
+      alignment: 9
+      pivot: {x: 0.48875248, y: 0.4425086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_41
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 3568
+        width: 338
+        height: 262
+      alignment: 9
+      pivot: {x: 0.47663987, y: 0.412292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_42
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 3569
+        width: 345
+        height: 260
+      alignment: 9
+      pivot: {x: 0.47881585, y: 0.41613486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_43
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 2771
+        width: 339
+        height: 260
+      alignment: 9
+      pivot: {x: 0.47497648, y: 0.48755258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2507
+        width: 341
+        height: 258
+      alignment: 9
+      pivot: {x: 0.47330666, y: 0.47679812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_45
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1709
+        width: 342
+        height: 260
+      alignment: 9
+      pivot: {x: 0.48311663, y: 0.46575692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_46
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1709
+        width: 346
+        height: 257
+      alignment: 9
+      pivot: {x: 0.46925732, y: 0.45807764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_47
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1441
+        width: 346
+        height: 260
+      alignment: 9
+      pivot: {x: 0.47613922, y: 0.47284734}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_48
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1441
+        width: 335
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4817853, y: 0.44884473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_49
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1441
+        width: 344
+        height: 264
+      alignment: 9
+      pivot: {x: 0.4784365, y: 0.42546636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationBossMort_50
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1441
+        width: 346
+        height: 264
+      alignment: 9
+      pivot: {x: 0.47717956, y: 0.45525244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

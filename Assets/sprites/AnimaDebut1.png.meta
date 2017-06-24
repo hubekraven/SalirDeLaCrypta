@@ -1,0 +1,301 @@
+fileFormatVersion: 2
+guid: c41f84a303856aa48ae894ac05b5b515
+timeCreated: 1485290974
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AnimaDebut1_0
+    21300002: AnimaDebut1_1
+    21300004: AnimaDebut1_2
+    21300006: AnimaDebut1_3
+    21300008: AnimaDebut1_4
+    21300010: AnimaDebut1_5
+    21300012: AnimaDebut1_6
+    21300014: AnimaDebut1_7
+    21300016: AnimaDebut1_8
+    21300018: AnimaDebut1_9
+    21300020: AnimaDebut1_10
+    21300022: AnimaDebut1_11
+    21300024: AnimaDebut1_12
+    21300026: AnimaDebut1_13
+    21300028: AnimaDebut1_14
+    21300030: AnimaDebut1_15
+    21300032: AnimaDebut1_16
+    21300034: AnimaDebut1_17
+    21300036: AnimaDebut1_18
+    21300038: AnimaDebut1_19
+    21300040: AnimaDebut1_20
+    21300042: AnimaDebut1_21
+    21300044: AnimaDebut1_22
+    21300046: AnimaDebut1_23
+    21300048: AnimaDebut1_24
+    21300050: AnimaDebut1_25
+    21300052: AnimaDebut1_26
+    21300054: AnimaDebut1_27
+    21300056: AnimaDebut1_28
+    21300058: AnimaDebut1_29
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AnimaDebut1_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 3632
+        width: 576
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimaDebut1_3
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 3633
+        width: 576
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimaDebut1_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 3135
+        width: 587
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimaDebut1_7
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 3135
+        width: 580
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimaDebut1_9
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2637
+        width: 587
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimaDebut1_11
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 2637
+        width: 584
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimaDebut1_13
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 2141
+        width: 591
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimaDebut1_15
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 2141
+        width: 584
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimaDebut1_17
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1640
+        width: 595
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimaDebut1_19
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1643
+        width: 588
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimaDebut1_21
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1147
+        width: 587
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimaDebut1_23
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1147
+        width: 581
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimaDebut1_25
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 647
+        width: 587
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimaDebut1_27
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 649
+        width: 580
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimaDebut1_29
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 183
+        width: 582
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

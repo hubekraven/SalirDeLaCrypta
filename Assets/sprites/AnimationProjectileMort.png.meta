@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: 2947dd2bce8c34a02b658307b5ef4d70
+timeCreated: 1484530466
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AnimationProjectileMort_0
+    21300002: AnimationProjectileMort_1
+    21300004: AnimationProjectileMort_2
+    21300006: AnimationProjectileMort_3
+    21300008: AnimationProjectileMort_4
+    21300010: AnimationProjectileMort_5
+    21300012: AnimationProjectileMort_6
+    21300014: AnimationProjectileMort_7
+    21300016: AnimationProjectileMort_8
+    21300018: AnimationProjectileMort_9
+    21300020: AnimationProjectileMort_10
+    21300022: AnimationProjectileMort_11
+    21300024: AnimationProjectileMort_12
+    21300026: AnimationProjectileMort_13
+    21300028: AnimationProjectileMort_14
+    21300030: AnimationProjectileMort_15
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AnimationProjectileMort_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 826
+        width: 104
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationProjectileMort_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 814
+        width: 69
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationProjectileMort_2
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 820
+        width: 88
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationProjectileMort_3
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 843
+        width: 147
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationProjectileMort_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 662
+        width: 194
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationProjectileMort_5
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 665
+        width: 210
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationProjectileMort_6
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 654
+        width: 190
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationProjectileMort_7
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 628
+        width: 138
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationProjectileMort_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 398
+        width: 80
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationProjectileMort_9
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 394
+        width: 61
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationProjectileMort_10
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 408
+        width: 116
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationProjectileMort_11
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 438
+        width: 174
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationProjectileMort_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 207
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationProjectileMort_13
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 263
+        width: 205
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationProjectileMort_14
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 224
+        width: 168
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AnimationProjectileMort_15
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 196
+        width: 104
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
