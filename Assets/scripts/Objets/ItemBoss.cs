@@ -31,7 +31,7 @@ public class ItemBoss : MonoBehaviour {
 			//nouveauProjectil = Resources.Load ("elementsExtras/projectileUpgrade") as GameObject;
 		}
 
-		Debug.Log ("le Canevas" + _CanvasDomage);
+//		Debug.Log ("le Canevas" + _CanvasDomage);
 
 		son_dropSpecial = Resources.Load ("sons/itemSpecial") as AudioClip;
 		sourceAudio_dropSpecial = gameObject.AddComponent<AudioSource> () as AudioSource;

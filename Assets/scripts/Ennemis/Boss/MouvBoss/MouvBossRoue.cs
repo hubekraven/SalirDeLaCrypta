@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class MouvBossRoue : MonoBehaviour
 {
-	Transform Roue;
+	/*Transform Roue;
 
 	void Start ()
 	{
@@ -22,5 +22,25 @@ public class MouvBossRoue : MonoBehaviour
 		transform.position = new Vector3 (Roue.position.x, transform.position.y, transform.position.z);
 
 	}
+*/
 
+	private Transform playerCible;
+	//private Transform go;
+	private GameObject personnage;
+	void Start(){
+		personnage = GameObject.Find ("Persos");
+
+		foreach (Transform perso in personnage.transform) {
+			if (perso.gameObject.activeSelf == true) {
+				playerCible = perso;
+			}
+		}
+	}
+
+	void Update ()
+	{
+		// trouver le perso et suivre son vecteur 
+		transform.position = new Vector3 (playerCible.position.x, transform.position.y, transform.position.z);
+
+	}
 }

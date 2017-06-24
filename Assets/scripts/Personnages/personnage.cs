@@ -38,7 +38,7 @@ public class personnage : MonoBehaviour
 		douleur = this.GetComponent<AudioSource> ();
 		
 		this.rb = GetComponent<Rigidbody2D> ();
-		txtnbBombe.text = nbBombe.ToString ();
+		txtnbBombe.text = nbBombe.ToString();
 		txtnbVies.text = nbVieMax.ToString();
 
 		Transform _detectColl = Instantiate (_detecTeurCollision, rb.position, transform.localRotation) as Transform;//crée une instance du detecteur de Collision

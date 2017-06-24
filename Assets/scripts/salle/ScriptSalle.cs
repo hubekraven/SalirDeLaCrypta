@@ -247,23 +247,21 @@ public class ScriptSalle : MonoBehaviour
 
 			}
 			if (porteEntree.name == "Porte_new(H)") {
-				nouvellePosition = new Vector3 (positionX, (positionY - 5f), 0f);
+				nouvellePosition = new Vector3 (positionX, positionY - 7f, 0f);
 
 			}
 			else if (porteEntree.name == "Porte_new(B)") {
-				nouvellePosition = new Vector3 (positionX, (positionY + 5f), 0f);
+				nouvellePosition = new Vector3 (positionX, positionY + 7f, 0f);
 
 			} 
-			else if (porteEntree.name == "Porte_new(G)")
-			{
+			else if (porteEntree.name == "Porte_new(G)") {
 				nouvellePosition = new Vector3 (positionX + 9f, positionY, 0f);
 
 			} 
-			else if (porteEntree.name == "Porte_new(D)") 
-			{
+			else if (porteEntree.name == "Porte_new(D)") {
 				nouvellePosition = new Vector3 (positionX - 9f, positionY, 0f);
 			}
-
+			Debug.Log ("Position: " + nouvellePosition);
 			Transform nouvelEnnemi = GameObject.Instantiate (typeEnnemis [0], nouvellePosition, Quaternion.identity) as Transform;
 			nouvelEnnemi.parent = mesEnnemis;
 			peutGenerItem = true;
@@ -283,14 +281,14 @@ public class ScriptSalle : MonoBehaviour
 			} 
 			else if (_passageSecret.name == "passageSecret(G)")
 			{
-				nouvellePosition = new Vector3 (positionX, (positionY + 7), 0f);
+				nouvellePosition = new Vector3 (positionX + 9f, positionY, 0f);
 
 			} 
 			else if (_passageSecret.name == "passageSecret(D)") 
 			{
-				nouvellePosition = new Vector3 (positionX, (positionY + 7), 0f);
+				nouvellePosition = new Vector3 (positionX - 9f, positionY, 0f);
 			}
-
+			Debug.Log ("Position: " + nouvellePosition);
 			Transform nouvelEnnemi = GameObject.Instantiate (typeEnnemis [0], nouvellePosition, Quaternion.identity) as Transform;
 			nouvelEnnemi.parent = mesEnnemis;
 			peutGenerItem = true;

@@ -16,14 +16,16 @@ public class choixPerso : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		choixPersonnage = PlayerPrefs.GetString ("choixPerso");
+		Debug.Log ("choixPersonnage " + PlayerPrefs.GetString ("choixPerso"));
 		//monChoix = transform.Find (choixPersonnage);
 		//monChoix.enabled = true; 
 		if (choixPersonnage == "Nahua") {
 			monChoix = 1;
 		} else {
 			monChoix = 0;
+
 		}
-		this.transform.GetChild (monChoix).gameObject.SetActive (true);
+		this.transform.GetChild(monChoix).gameObject.SetActive (true);
 
 	}
 	
