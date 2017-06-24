@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D6603FCF-8951-6369-1205-6A64FAAEAD9C}</ProjectGuid>
+    <ProjectGuid>{912D03C0-7EA1-7074-0854-A095D09B88F1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,7 +46,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ScriptFindeJeu.cs" />
      <Compile Include="Assets\scripts\AccesHabilites\AccesHabiliteMiniBoss.cs" />
      <Compile Include="Assets\scripts\AccesHabilites\AccesHabiliteSpecialChamp.cs" />
      <Compile Include="Assets\scripts\AccesHabilites\HabiliteTaupe.cs" />
@@ -104,6 +103,7 @@
      <Compile Include="Assets\scripts\Personnages\tete.cs" />
      <Compile Include="Assets\scripts\PorteFin\PorteScript.cs" />
      <Compile Include="Assets\scripts\PorteFin\TriggerPorte.cs" />
+     <Compile Include="Assets\scripts\ScriptFindeJeu.cs" />
      <Compile Include="Assets\scripts\ScriptIntroduction.cs" />
      <Compile Include="Assets\scripts\projectileEnnemis.cs" />
      <Compile Include="Assets\scripts\salle\ScriptDimensionSalle.cs" />
