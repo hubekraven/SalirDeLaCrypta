@@ -107,15 +107,15 @@ public class ScriptSalle : MonoBehaviour
 
 		// RECUPERER LE numreo d'un layer: Debug.Log(LayerMask.NameToLayer ("Default"));
 		_monTransform = GetComponent<Transform> ();//recuper le transform de ce ma salle
-		_tCibleCamera = transform.FindChild ("pointInstantiation");//recuper le point La position du point instantiation  la position en z de ma camera
+		_tCibleCamera = transform.Find ("pointInstantiation");//recuper le point La position du point instantiation  la position en z de ma camera
 		_v3CibleCamera = _tCibleCamera.position;
 		_v3CibleCamera.z = maCamera.position.z;
-		_mesObjets = transform.FindChild ("mesObjets");
+		_mesObjets = transform.Find ("mesObjets");
 		changeDecor ();//appel la fonction change decore;
 
 
 		_nbitem = 0;
-		_mesPassageSecrets = transform.FindChild ("mesPassages");//recuper le passage secret
+		_mesPassageSecrets = transform.Find ("mesPassages");//recuper le passage secret
 
 		//va chercher le passage secret active dans la salle
 		foreach (Transform child in _mesPassageSecrets) {
@@ -134,11 +134,11 @@ public class ScriptSalle : MonoBehaviour
 
 		//recuper elements mesEnnemis 
 		if (mesEnnemis == null) {
-			mesEnnemis = transform.FindChild ("mesEnnemis");
+			mesEnnemis = transform.Find ("mesEnnemis");
 		}
 		//recuper element les portes pour avoir acces a ces enfants (les portes)
 		if (_mesPortes == null) {
-			_mesPortes = transform.FindChild ("_mesPortes");
+			_mesPortes = transform.Find ("_mesPortes");
 		}
 	
 
@@ -400,36 +400,36 @@ public class ScriptSalle : MonoBehaviour
 	{
 		//si c'est la salle de départ
 		if (_monTransform.name == "SalleStart") {
-			_maDecoration = transform.FindChild ("Decorations");
+			_maDecoration = transform.Find ("Decorations");
 			if (_maDecoration != null) {
 				for (int i = 8; i < 16; i++) {
 					_maDecoration.GetChild (i).GetComponent<SpriteRenderer> ().enabled = false;
 				}
 			}
 
-			transform.FindChild ("SalleSol").GetComponent<SpriteRenderer> ().sprite = decorations [1];
+			transform.Find ("SalleSol").GetComponent<SpriteRenderer> ().sprite = decorations [1];
 		}
 
 		//si c' cest la salle secrete
 		else if (_monTransform.name == "SalleSecrete") {
-			_maDecoration = transform.FindChild ("Decorations");
+			_maDecoration = transform.Find ("Decorations");
 			if (_maDecoration != null) {
 				for (int i = 8; i < 16; i++) {
 					_maDecoration.GetChild (i).GetComponent<SpriteRenderer> ().sprite = decorations [4];
 					_maDecoration.GetChild (i).GetComponent<SpriteRenderer> ().color = new Color (203f, 140f, 140f, 255f);
 				}
 			}
-			transform.FindChild ("SalleSol").GetComponent<SpriteRenderer> ().sprite = decorations [2];
+			transform.Find ("SalleSol").GetComponent<SpriteRenderer> ().sprite = decorations [2];
 		}
 		//si c' cest la salle du boss
 		else if (_monTransform.name == "SalleBoss") {
-			_maDecoration = transform.FindChild ("Decorations");
+			_maDecoration = transform.Find ("Decorations");
 			if (_maDecoration != null) {
 				for (int i = 8; i < 16; i++) {
 					_maDecoration.GetChild (i).GetComponent<SpriteRenderer> ().sprite = decorations [3];
 				}
 			}
-			transform.FindChild ("SalleSol").GetComponent<SpriteRenderer> ().sprite = decorations [0];
+			transform.Find ("SalleSol").GetComponent<SpriteRenderer> ().sprite = decorations [0];
 
 			foreach (Transform portes in _mesPortes) {
 				if (portes.gameObject.activeSelf == true) {

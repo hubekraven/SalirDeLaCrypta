@@ -36,7 +36,7 @@ public class MouvBossAigle : MonoBehaviour
 	{
 
 		_salle = transform.root;
-		_pointInstantiation = _salle.FindChild ("pointInstantiation");
+		_pointInstantiation = _salle.Find ("pointInstantiation");
 
 
 		X_maxSalle = _pointInstantiation.position.x + ratioX;

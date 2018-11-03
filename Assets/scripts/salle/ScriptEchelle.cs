@@ -17,18 +17,17 @@ public class ScriptEchelle : MonoBehaviour {
 		{
 			finNiveau = true;
 			//currentLevel = SceneManager.GetActiveScene ();
+			//Debug.Log("==> CANVAS: " + GameObject.Find ("Canvas"));
 			GameObject.Find ("Canvas").SendMessage ("chargerNiveau",finNiveau);
 			//_canvas.SendMessage("sauvegardePlayerState");
 			//if (currentLevel.name != "Niveau4") 
 			//{
-				//iLevel = currentLevel.buildIndex;
-
-				//SceneManager.LoadScene (iLevel+1);
-
+			//	iLevel = currentLevel.buildIndex;
+			//	SceneManager.LoadScene (iLevel+1);
 			//}
 			//else
 			//{
-				//SceneManager.LoadScene ("Fin");
+			//	SceneManager.LoadScene ("Fin");
 			//}
 		}
 	}

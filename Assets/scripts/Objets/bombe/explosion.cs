@@ -32,7 +32,11 @@ public class explosion : MonoBehaviour {
 		if (coll && valid) {
 			Debug.Log (coll.gameObject.name);
 			Rigidbody2D rbTouche = coll.gameObject.GetComponent <Rigidbody2D>();
-			rbTouche.SendMessageUpwards ("Toucher", 1, SendMessageOptions.RequireReceiver);
+			if (rbTouche) {
+				Debug.Log ("===Bodyr " + rbTouche);
+				rbTouche.SendMessageUpwards ("Toucher", 1, SendMessageOptions.RequireReceiver);
+			}
+
 		}
 	}
 }

@@ -20,29 +20,43 @@ public class ScriptGameManager : MonoBehaviour
 	private int iLevel;
 	private bool peutUpdate = false;
 
+	private string choixPersonnage;
+	private int monChoix;
+
 	// Use this for initialization
 	void Start ()
 	{
-		_persos = GameObject.Find ("Persos");
-		if (_persos != null)
-		{
-			foreach(Transform child in _persos.transform)
-			{
-				if(child.gameObject.activeSelf == true)
-				{
-					joueur = child;
-					tete = joueur.GetChild (1);
-					_scriptPersonnage = joueur.GetComponent<personnage> () as personnage; 
-					_teteScript = tete.GetComponent<LancerObjet> () as LancerObjet;//recuper le scrip lancer objet pour pouvoir changer le projectil instancié
-				}
-			}
-		}
+		
+		Debug.Log("====> MANAGER");
+		this.definirChoixPerso ();
+
+		//if (_persos != null)
+		//{
+		//	//foreach(GameObject child in _persos)
+		//	foreach(Transform child in _persos.transform)
+		//	{
+		//		Debug.Log("===> PERSOS CHILD " + child.gameObject + " ----  " + child.gameObject.activeInHierarchy);
+		//		if(child.gameObject.activeSelf == true)
+		//		{
+		//			
+		//			joueur = child;
+		//			Debug.Log("===> JOUEUR " + joueur);
+		//			tete = joueur.GetChild (1);
+		//			_scriptPersonnage = joueur.GetComponent<personnage> () as personnage; 
+		//			_teteScript = tete.GetComponent<LancerObjet> () as LancerObjet;//recuper le scrip lancer objet pour pouvoir changer le projectil instancié
+		//		}
+		//	}
+		//	//Debug.Log("===> VIE " + _scriptPersonnage.nbVie);
+		//}
 
 
 		currentLevel = SceneManager.GetActiveScene ();//recupper le niveau actuelle du jeu
+		Debug.Log("===> LEVEL " + currentLevel.name);
+
 
 		if(PlayerPrefs.HasKey ("playerState"))
 		{
+			//Debug.Log("===> PlAYER " + PlayerPrefs.GetString("choixPerso" ));
 			_CanvasDomage = this.transform.GetChild (0);
 			_CanvasVitesse= this.transform.GetChild (1);
 			this.chargePlayerState ();
@@ -62,6 +76,8 @@ public class ScriptGameManager : MonoBehaviour
 	void sauvegardePlayerState ()
 	{
 		Debug.Log("SAUVEGARDE");
+		//Debug.Log("===> VIE " + _scriptPersonnage.nbVie);
+		//Debug.Log("===> BOMBE " + _scriptPersonnage.nbBombe);
 		PlayerPrefs.SetFloat ("vieJoueur", _scriptPersonnage.nbVie);//recuper la vie restante du joueur
 		PlayerPrefs.SetFloat ("bombeJoueur", _scriptPersonnage.nbBombe);//recuper les bombes restantes du joueur
 		PlayerPrefs.Save ();//sauvegarde toutes les preferences du joueurs
@@ -73,6 +89,7 @@ public class ScriptGameManager : MonoBehaviour
 
 	void chargerNiveau (bool finNiveau)
 	{
+		//Debug.Log ("===> CHARGEMENT NIVEAU " + currentLevel.name);
 		if (finNiveau == true) {
 			this.sauvegardePlayerState ();
 			//WaitForSeconds()
@@ -80,16 +97,16 @@ public class ScriptGameManager : MonoBehaviour
 			if (currentLevel.name != "Niveau4") {
 				iLevel = currentLevel.buildIndex;
 				SceneManager.LoadScene (iLevel + 1);
-				Debug.Log ("NIVEAU :" + iLevel.ToString ());
+				//Debug.Log ("===> NIVEAU :" + currentLevel.);
 			} else {
 				SceneManager.LoadScene ("Fin");
-				PlayerPrefs.DeleteAll ();
+				//PlayerPrefs.DeleteAll ();
 				Debug.Log ("FIN DU JEU");
 			}
 		}
 		finNiveau = false;
 		//peutUpdate = true;
-		PlayerPrefs.SetString ("playerState","yes");
+		//PlayerPrefs.SetString ("playerState","yes");
 	}
 	//**function permet de charger les state du joueur au debut de chaque niveau
 	void chargePlayerState ()
@@ -125,5 +142,27 @@ public class ScriptGameManager : MonoBehaviour
 			//_scriptPersonnage.nbBombe = PlayerPrefs.GetFloat ("bombeJoueur");
 		}
 		peutUpdate = false;
+	}
+
+	void definirChoixPerso (){
+	
+		//Debug.Log("====> CALL TO CHOIX PERSO");
+		choixPersonnage = PlayerPrefs.GetString ("choixPerso");
+		Debug.Log ("===>choixPersonnage " + PlayerPrefs.GetString ("choixPerso"));
+
+		if (choixPersonnage == "Nahua") {
+			monChoix = 1;
+		} else {
+			monChoix = 0;
+		}
+
+		_persos = GameObject.Find ("Persos");
+		if (_persos) {
+			joueur=_persos.transform.GetChild(monChoix);
+			joueur.gameObject.SetActive (true);
+			tete = joueur.GetChild (1);
+			_scriptPersonnage = joueur.GetComponent<personnage> () as personnage; 
+			_teteScript = tete.GetComponent<LancerObjet> () as LancerObjet;//recuper le scrip lancer objet pour pouvoir changer le projectil instancié
+		}
 	}
 }
