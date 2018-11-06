@@ -47,6 +47,7 @@ public class ItemBoss : MonoBehaviour {
 		if (coll.gameObject.name == "Yucan" || coll.gameObject.name == "Nahua") {
 			sourceAudio_dropSpecial.Play ();
 			//projectilePerso scriptProjectil = jojec.GetComponent <projectilePerso> () as projectilePerso;
+			//GameObject.Find("Canvas").SendMessage("upgradePlayer", "You can upgade");
 
 			personnage playerScript = coll.gameObject.GetComponent<personnage> () as personnage;
 			Transform tete = coll.gameObject.transform.GetChild (1);
@@ -59,45 +60,43 @@ public class ItemBoss : MonoBehaviour {
 				indiceBonus = Random.Range (1, 4);
 				//augmente la vie maximum du joueur de 2
 				if (indiceBonus == 1) {
-					
-					bonusName ="VieUp";
-					Debug.Log ("yoLife!!!");
-					playerScript.nbVieMax++;
-					playerScript.nbVie = playerScript.nbVieMax;
-					Debug.Log (playerScript.nbVieMax);	
+					GameObject.Find("Canvas").SendMessage("upgradePlayer", "upgradeVie");
+					//bonusName ="VieUp";
 				}
 				//augmente la vitesse de deplacement du perso	
 				else if (indiceBonus == 2) {
-					if (_CanvasVitesse.gameObject.activeSelf==false) {
-						_CanvasVitesse.gameObject.SetActive(true);
-					}
-					else if(_CanvasVitesse.gameObject.activeSelf == true){
-						nbVitesse=_CanvasVitesse.GetChild(1).GetComponent<Text>();
-						bonusName ="Speed Up";
-						playerScript.vitesse += 0.5f;
-						Debug.Log ("yoSPEED!!! " + playerScript.vitesse);
+					GameObject.Find("Canvas").SendMessage("upgradePlayer", "upgradeVitesse");
+					//if (_CanvasVitesse.gameObject.activeSelf==false) {
+						//_CanvasVitesse.gameObject.SetActive(true);
+					//}
+					//else if(_CanvasVitesse.gameObject.activeSelf == true){
+					//	nbVitesse=_CanvasVitesse.GetChild(1).GetComponent<Text>();
+					//	bonusName ="Speed Up";
+					//	playerScript.vitesse += 0.5f;
+					//	Debug.Log ("yoSPEED!!! " + playerScript.vitesse);
 
-						nbVitesse.text = playerScript.vitesse.ToString ();
-					}
+					//	nbVitesse.text = playerScript.vitesse.ToString ();
+					//}
 
 				}
 				//change et augmente la puissance des projectil du peso
 				else if (indiceBonus == 3) {
-					if (_CanvasDomage.gameObject.activeSelf==false) {
-						_CanvasDomage.gameObject.SetActive(true);
-					}
-					else if(_CanvasDomage.gameObject.activeSelf == true){
-						playerScript.domagePerso++;
-						nbDomage=_CanvasDomage.GetChild(1).GetComponent<Text>();
-						Debug.Log ("yoPOWER!!! " + nbDomage);
-						nbDomage.text = playerScript.domagePerso.ToString ();
-						teteScript.projectile=Resources.Load ("elementsExtras/projectileUpgrade") as GameObject;//donne le nouveau projectil au personnage
+					GameObject.Find("Canvas").SendMessage("upgradePlayer", "upgradeProjectil");
+					//if (_CanvasDomage.gameObject.activeSelf==false) {
+						//_CanvasDomage.gameObject.SetActive(true);
+					//}
+					//else if(_CanvasDomage.gameObject.activeSelf == true){
+					//	playerScript.domagePerso++;
+					//	nbDomage=_CanvasDomage.GetChild(1).GetComponent<Text>();
+					//	Debug.Log ("yoPOWER!!! " + nbDomage);
+					//	nbDomage.text = playerScript.domagePerso.ToString ();
+					//	teteScript.projectile=Resources.Load ("elementsExtras/projectileUpgrade") as GameObject;//donne le nouveau projectil au personnage
 		
-					}
+					//}
 				}
 				i++;
 			}
-			GameObject.Destroy (gameObject,1f);
+			//GameObject.Destroy (gameObject,1f);
 		
 			//
 

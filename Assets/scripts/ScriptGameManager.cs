@@ -23,6 +23,14 @@ public class ScriptGameManager : MonoBehaviour
 	private string choixPersonnage;
 	private int monChoix;
 
+	private string bonusName;
+	//public Text txtnbVies;
+	public Text nbDomage;
+	public Text nbVitesse;
+	private bool _hasNewProjectil = false;
+
+	private GameObject nouveauProjectil;
+
 	// Use this for initialization
 	void Start ()
 	{
@@ -30,33 +38,20 @@ public class ScriptGameManager : MonoBehaviour
 		Debug.Log("====> MANAGER");
 		this.definirChoixPerso ();
 
-		//if (_persos != null)
-		//{
-		//	//foreach(GameObject child in _persos)
-		//	foreach(Transform child in _persos.transform)
-		//	{
-		//		Debug.Log("===> PERSOS CHILD " + child.gameObject + " ----  " + child.gameObject.activeInHierarchy);
-		//		if(child.gameObject.activeSelf == true)
-		//		{
-		//			
-		//			joueur = child;
-		//			Debug.Log("===> JOUEUR " + joueur);
-		//			tete = joueur.GetChild (1);
-		//			_scriptPersonnage = joueur.GetComponent<personnage> () as personnage; 
-		//			_teteScript = tete.GetComponent<LancerObjet> () as LancerObjet;//recuper le scrip lancer objet pour pouvoir changer le projectil instancié
-		//		}
-		//	}
-		//	//Debug.Log("===> VIE " + _scriptPersonnage.nbVie);
-		//}
-
-
 		currentLevel = SceneManager.GetActiveScene ();//recupper le niveau actuelle du jeu
 		Debug.Log("===> LEVEL " + currentLevel.name);
+		Debug.Log("PLAYER PREF " + PlayerPrefs.GetString ("choixPerso"));
+		_CanvasDomage = this.transform.GetChild (0);
+		_CanvasVitesse= this.transform.GetChild (1);
+		nbDomage = _CanvasDomage.GetChild(1).GetComponent<Text>();
+		nbVitesse=_CanvasVitesse.GetChild(1).GetComponent<Text>();
+		Debug.Log ("====> CANVAS VITESSE" + _CanvasVitesse);
+
 
 
 		if(PlayerPrefs.HasKey ("playerState"))
 		{
-			//Debug.Log("===> PlAYER " + PlayerPrefs.GetString("choixPerso" ));
+			Debug.Log("====> TESTING IN CANVAS");
 			_CanvasDomage = this.transform.GetChild (0);
 			_CanvasVitesse= this.transform.GetChild (1);
 			this.chargePlayerState ();
@@ -67,23 +62,31 @@ public class ScriptGameManager : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		if(peutUpdate==true)
+		if(!peutUpdate)
 		{
+			if(PlayerPrefs.HasKey ("playerState"))
+			{
+				Debug.Log("====> TESTING IN CANVAS");
+				//_CanvasDomage = this.transform.GetChild (0);
+				//_CanvasVitesse= this.transform.GetChild (1);
+			}
 			this.chargePlayerState ();
 		}
 	}
 	//**function permet de sauvegarder tous les bonus & state du joueurs à la fin de chaque niveau//
 	void sauvegardePlayerState ()
 	{
-		Debug.Log("SAUVEGARDE");
-		//Debug.Log("===> VIE " + _scriptPersonnage.nbVie);
-		//Debug.Log("===> BOMBE " + _scriptPersonnage.nbBombe);
+		//Debug.Log("SAUVEGARDE");
 		PlayerPrefs.SetFloat ("vieJoueur", _scriptPersonnage.nbVie);//recuper la vie restante du joueur
 		PlayerPrefs.SetFloat ("bombeJoueur", _scriptPersonnage.nbBombe);//recuper les bombes restantes du joueur
+		if (PlayerPrefs.HasKey ("vitesseJoueur")) {
+			PlayerPrefs.SetFloat ("vitesseJoueur", _scriptPersonnage.vitesse);//sauvegarde la vitesse
+		}
+		if(PlayerPrefs.HasKey ("domageJoueur")){
+			PlayerPrefs.SetFloat ("vitesseJoueur", _scriptPersonnage.domagePerso);//sauvegarde les domages du joueur
+		}
 		PlayerPrefs.Save ();//sauvegarde toutes les preferences du joueurs
-		//Debug.Log ("Vie Maximun du Joueur: " + PlayerPrefs.GetFloat ("vieMaxJoueur"));
-		//Debug.Log ("vitesseJoueur: " + PlayerPrefs.GetFloat ("vitesseJoueur"));
-		//Debug.Log ("domageJoueur: " + PlayerPrefs.GetFloat ("domageJoueur"));
+
 	
 	}
 
@@ -92,11 +95,11 @@ public class ScriptGameManager : MonoBehaviour
 		//Debug.Log ("===> CHARGEMENT NIVEAU " + currentLevel.name);
 		if (finNiveau == true) {
 			this.sauvegardePlayerState ();
-			//WaitForSeconds()
 			//gestion du lancement du prochain niveau
 			if (currentLevel.name != "Niveau4") {
 				iLevel = currentLevel.buildIndex;
 				SceneManager.LoadScene (iLevel + 1);
+				peutUpdate = true;
 				//Debug.Log ("===> NIVEAU :" + currentLevel.);
 			} else {
 				SceneManager.LoadScene ("Fin");
@@ -105,14 +108,13 @@ public class ScriptGameManager : MonoBehaviour
 			}
 		}
 		finNiveau = false;
-		//peutUpdate = true;
 		//PlayerPrefs.SetString ("playerState","yes");
 	}
 	//**function permet de charger les state du joueur au debut de chaque niveau
 	void chargePlayerState ()
 	{
-		Debug.Log("chargePlayerState");
-		Debug.Log ("joueur " + joueur );
+		//Debug.Log("chargePlayerState");
+		//Debug.Log ("joueur " + joueur );
 
 		if (currentLevel.name != "Niveau1") {
 
@@ -138,8 +140,6 @@ public class ScriptGameManager : MonoBehaviour
 			_scriptPersonnage.nbBombe = PlayerPrefs.GetFloat ("bombeJoueur");
 		} else {
 			PlayerPrefs.DeleteAll ();
-			//_scriptPersonnage.nbVie = PlayerPrefs.GetFloat ("vieJoueur");
-			//_scriptPersonnage.nbBombe = PlayerPrefs.GetFloat ("bombeJoueur");
 		}
 		peutUpdate = false;
 	}
@@ -164,5 +164,43 @@ public class ScriptGameManager : MonoBehaviour
 			_scriptPersonnage = joueur.GetComponent<personnage> () as personnage; 
 			_teteScript = tete.GetComponent<LancerObjet> () as LancerObjet;//recuper le scrip lancer objet pour pouvoir changer le projectil instancié
 		}
+	}
+	void upgradePlayer(string myMessage){
+
+		if(myMessage == "upgradeVie"){
+			bonusName ="VieUp";
+			_scriptPersonnage.nbVieMax++;
+			_scriptPersonnage.nbVie = _scriptPersonnage.nbVieMax;
+			Debug.Log ("====> Upgrade VIE "+ _scriptPersonnage.nbVie );
+		}
+		if(myMessage == "upgradeVitesse"){
+			
+			if (!_CanvasVitesse.gameObject.activeInHierarchy) {
+				_CanvasVitesse.gameObject.SetActive (true);
+				_scriptPersonnage.vitesse += 0.5f;
+				nbVitesse.text = _scriptPersonnage.vitesse.ToString ();
+				PlayerPrefs.SetFloat ("vitesseJoueur", _scriptPersonnage.vitesse);
+			} 
+			else if (_CanvasVitesse.gameObject.activeInHierarchy) {
+				bonusName ="Speed Up";
+				_scriptPersonnage.vitesse += 0.5f;
+				nbVitesse.text = _scriptPersonnage.vitesse.ToString ();
+			}
+		}
+		if(myMessage == "upgradeProjectil"){
+			
+			if (!_CanvasDomage.gameObject.activeInHierarchy) {
+				_CanvasDomage.gameObject.SetActive (true);
+				_scriptPersonnage.domagePerso++;
+				_teteScript.projectile=Resources.Load ("elementsExtras/projectileUpgrade") as GameObject;//donne le nouveau projectil au personnage
+				PlayerPrefs.SetFloat("domageJoueur",_scriptPersonnage.domagePerso );
+			}
+			else if (_CanvasDomage.gameObject.activeInHierarchy) {
+				_scriptPersonnage.domagePerso++;
+				nbDomage.text = _scriptPersonnage.domagePerso.ToString ();
+
+			}
+		}
+	
 	}
 }
