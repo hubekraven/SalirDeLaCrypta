@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class ScriptGameManager : MonoBehaviour
 {
+	public static ScriptGameManager gameManager;// defining a reference for current gameObject
 	private Scene currentLevel;
 	public GameObject _persos;
 	private Transform joueur;
@@ -19,43 +20,72 @@ public class ScriptGameManager : MonoBehaviour
 	//niveau actuel
 	private int iLevel;
 	private bool peutUpdate = false;
+	public int testVariable;
 
-	private string choixPersonnage;
-	private int monChoix;
+	//private string choixPersonnage;
+	public Transform persoActif;
 
 	private string bonusName;
-	//public Text txtnbVies;
+	public Text txtnbBombe;
+	public Text txtnbVies;
 	public Text nbDomage;
 	public Text nbVitesse;
 	private bool _hasNewProjectil = false;
+	//public string choixPersonnage;
 
 	private GameObject nouveauProjectil;
+
+
+	void Awake()
+	{
+		/***make sure that only one gameManager is Active in all the scenes
+		ref: https://unity3d.com/fr/learn/tutorials/topics/scripting/persistence-saving-and-loading-data***/
+		txtnbVies =this.txtnbVies;
+		txtnbBombe =this.txtnbBombe;
+
+		if (gameManager == null) {
+			Debug.Log("==> This is the GameManager");
+			DontDestroyOnLoad (gameObject);
+			gameManager = this;
+		} 
+		else if (gameManager && gameManager != this) {
+			Debug.Log("==> GameManager Detected this instance will be destroied!");
+			Destroy (gameObject);
+		}
+
+	}
 
 	// Use this for initialization
 	void Start ()
 	{
-		
+		   
+		 
+
 		Debug.Log("====> MANAGER");
+
+		if (_persos == null) {
+			_persos = GameObject.Find("Persos");
+		}
 		this.definirChoixPerso ();
 
 		currentLevel = SceneManager.GetActiveScene ();//recupper le niveau actuelle du jeu
 		Debug.Log("===> LEVEL " + currentLevel.name);
-		Debug.Log("PLAYER PREF " + PlayerPrefs.GetString ("choixPerso"));
+		//Debug.Log("PLAYER PREF " + PlayerPrefs.GetString ("choixPerso"));
 		_CanvasDomage = this.transform.GetChild (0);
 		_CanvasVitesse= this.transform.GetChild (1);
 		nbDomage = _CanvasDomage.GetChild(1).GetComponent<Text>();
 		nbVitesse=_CanvasVitesse.GetChild(1).GetComponent<Text>();
-		Debug.Log ("====> CANVAS VITESSE" + _CanvasVitesse);
+		//Debug.Log ("====> CANVAS VITESSE" + _CanvasVitesse);
+		this.chargePlayerState ();
 
 
-
-		if(PlayerPrefs.HasKey ("playerState"))
-		{
-			Debug.Log("====> TESTING IN CANVAS");
-			_CanvasDomage = this.transform.GetChild (0);
-			_CanvasVitesse= this.transform.GetChild (1);
-			this.chargePlayerState ();
-		}
+		//if(PlayerPrefs.HasKey ("playerState"))
+		//{
+		//	//Debug.Log("====> TESTING IN CANVAS");
+		//	//_CanvasDomage = this.transform.GetChild (0);
+		//	//_CanvasVitesse= this.transform.GetChild (1);
+		//	this.chargePlayerState ();
+		//}
 
 	}
 	
@@ -66,24 +96,26 @@ public class ScriptGameManager : MonoBehaviour
 		{
 			if(PlayerPrefs.HasKey ("playerState"))
 			{
-				Debug.Log("====> TESTING IN CANVAS");
+				//Debug.Log("====> TESTING IN CANVAS");
 				//_CanvasDomage = this.transform.GetChild (0);
 				//_CanvasVitesse= this.transform.GetChild (1);
 			}
-			this.chargePlayerState ();
+			//this.chargePlayerState ();
 		}
 	}
 	//**function permet de sauvegarder tous les bonus & state du joueurs à la fin de chaque niveau//
 	void sauvegardePlayerState ()
 	{
 		//Debug.Log("SAUVEGARDE");
+		PlayerPrefs.SetString("choixPerso",persoActif.transform.name);
 		PlayerPrefs.SetFloat ("vieJoueur", _scriptPersonnage.nbVie);//recuper la vie restante du joueur
+		PlayerPrefs.SetFloat ("vieMaxJoueur", _scriptPersonnage.nbVieMax);
 		PlayerPrefs.SetFloat ("bombeJoueur", _scriptPersonnage.nbBombe);//recuper les bombes restantes du joueur
 		if (PlayerPrefs.HasKey ("vitesseJoueur")) {
 			PlayerPrefs.SetFloat ("vitesseJoueur", _scriptPersonnage.vitesse);//sauvegarde la vitesse
 		}
 		if(PlayerPrefs.HasKey ("domageJoueur")){
-			PlayerPrefs.SetFloat ("vitesseJoueur", _scriptPersonnage.domagePerso);//sauvegarde les domages du joueur
+			PlayerPrefs.SetFloat ("domageJoueur", _scriptPersonnage.domagePerso);//sauvegarde les domages du joueur
 		}
 		PlayerPrefs.Save ();//sauvegarde toutes les preferences du joueurs
 
@@ -113,24 +145,21 @@ public class ScriptGameManager : MonoBehaviour
 	//**function permet de charger les state du joueur au debut de chaque niveau
 	void chargePlayerState ()
 	{
-		//Debug.Log("chargePlayerState");
-		//Debug.Log ("joueur " + joueur );
-
+		Debug.Log ("====LOADING PLAYER STATE=====");
 		if (currentLevel.name != "Niveau1") {
 
 			if (PlayerPrefs.HasKey ("vieMaxJoueur")) {
-				
-				//_scriptPersonnage.nbVieMax = PlayerPrefs.GetFloat ("vieMaxJoueur");
-				Debug.Log ("KEY vieMaxJoueur");
+				_scriptPersonnage.nbVieMax = PlayerPrefs.GetFloat ("vieMaxJoueur");
+				//Debug.Log ("KEY vieMaxJoueur");
 			}
 			if (PlayerPrefs.HasKey ("vitesseJoueur")) {
-				Debug.Log ("KEY vitesseJoueur");
+				Debug.Log ("===> KEY vitesseJoueur");
 				_CanvasVitesse.gameObject.SetActive (true);
 				_CanvasVitesse.GetChild (1).GetComponent <Text>().text = PlayerPrefs.GetFloat ("vitesseJoueur").ToString ();
 				_scriptPersonnage.vitesse = PlayerPrefs.GetFloat ("vitesseJoueur");
 			}
 			if (PlayerPrefs.HasKey ("domageJoueur")) {
-				Debug.Log ("KEY domageJoueur");
+				Debug.Log ("===> KEY domageJoueur");
 				_scriptPersonnage.domagePerso = PlayerPrefs.GetFloat ("domageJoueur");
 				_CanvasDomage.gameObject.SetActive (true);
 				_CanvasDomage.GetChild (1).GetComponent <Text>().text = PlayerPrefs.GetFloat ("domageJoueur").ToString ();
@@ -142,28 +171,42 @@ public class ScriptGameManager : MonoBehaviour
 			PlayerPrefs.DeleteAll ();
 		}
 		peutUpdate = false;
+		Debug.Log("====FINISHED LOADING===");
 	}
 
 	void definirChoixPerso (){
 	
-		//Debug.Log("====> CALL TO CHOIX PERSO");
-		choixPersonnage = PlayerPrefs.GetString ("choixPerso");
-		Debug.Log ("===>choixPersonnage " + PlayerPrefs.GetString ("choixPerso"));
 
-		if (choixPersonnage == "Nahua") {
-			monChoix = 1;
-		} else {
-			monChoix = 0;
+		if (persoActif == null) {
+			Debug.Log ("====> PERSO Active: " + PlayerPrefs.GetString ("choixPerso"));
+			string choixPersonnage = PlayerPrefs.GetString ("choixPerso");
+			Debug.Log("====> CALL TO CHOIX PERSO -->" + _persos.transform.childCount + " ---> "+ choixPersonnage+ " /  PersoActif---> "+ persoActif);
+			//Debug.Log ("===>choixPersonnage -> " + _persos.transform.Find(choixPersonnage));
+			persoActif = _persos.transform.Find (choixPersonnage);
 		}
+		//Debug.Log ("===>choixPersonnage -> " + persoActif.ToString());
+		persoActif.gameObject.SetActive (true);
+		//Debug.Log ("===>choixPersonnage -> " + persoActif.ToString());
+		tete = persoActif.GetChild (1);
+		_scriptPersonnage = persoActif.GetComponent<personnage> () as personnage; 
+		_teteScript = tete.GetComponent<LancerObjet> () as LancerObjet;//recuper le scrip lancer objet pour pouvoir changer le projectil instancié
+		//Debug.Log ("===>choixPersonnage -> " + choixPersonnage );
 
-		_persos = GameObject.Find ("Persos");
-		if (_persos) {
-			joueur=_persos.transform.GetChild(monChoix);
-			joueur.gameObject.SetActive (true);
-			tete = joueur.GetChild (1);
-			_scriptPersonnage = joueur.GetComponent<personnage> () as personnage; 
-			_teteScript = tete.GetComponent<LancerObjet> () as LancerObjet;//recuper le scrip lancer objet pour pouvoir changer le projectil instancié
-		}
+		//if (choixPersonnage == "Nahua") {
+		//	monChoix = 1;
+		//} else {
+		//	monChoix = 0;
+		//}
+
+		//_persos = GameObject.Find ("Persos");
+		//if (_persos) {
+		//	joueur=_persos.transform.GetChild(monChoix);
+		//	//Debug.Log ("===> LE JOUEUR " + joueur.ToString ());
+		//	joueur.gameObject.SetActive (true);
+		//	tete = joueur.GetChild (1);
+		//	_scriptPersonnage = joueur.GetComponent<personnage> () as personnage; 
+		//	_teteScript = tete.GetComponent<LancerObjet> () as LancerObjet;//recuper le scrip lancer objet pour pouvoir changer le projectil instancié
+		//}
 	}
 	void upgradePlayer(string myMessage){
 
@@ -172,6 +215,7 @@ public class ScriptGameManager : MonoBehaviour
 			_scriptPersonnage.nbVieMax++;
 			_scriptPersonnage.nbVie = _scriptPersonnage.nbVieMax;
 			Debug.Log ("====> Upgrade VIE "+ _scriptPersonnage.nbVie );
+
 		}
 		if(myMessage == "upgradeVitesse"){
 			

@@ -15,6 +15,7 @@ public class choixPerso : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		Debug.Log ("====INTIALIZE CHOIX PERSO====");
 		//Debug.Log("====> CALL TO CHOIX PERSO");
 		//choixPersonnage = PlayerPrefs.GetString ("choixPerso");
 		//Debug.Log ("choixPersonnage " + PlayerPrefs.GetString ("choixPerso"));
@@ -27,6 +28,13 @@ public class choixPerso : MonoBehaviour {
 		//
 		//}
 		//this.transform.GetChild(monChoix).gameObject.SetActive (true);
+		//Debug.Log("====> gameManager: " + ScriptGameManager.gameManager._persos);
+		if(ScriptGameManager.gameManager._persos == null ){
+			Debug.Log ("====> Setting gameManager Perso!");
+			ScriptGameManager.gameManager._persos = this.gameObject;
+			ScriptGameManager.gameManager.SendMessage ("definirChoixPerso");
+		}
+
 
 	}
 	

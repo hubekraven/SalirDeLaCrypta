@@ -96,7 +96,7 @@ public class ItemBoss : MonoBehaviour {
 				}
 				i++;
 			}
-			//GameObject.Destroy (gameObject,1f);
+			GameObject.Destroy (gameObject,1f);
 		
 			//
 

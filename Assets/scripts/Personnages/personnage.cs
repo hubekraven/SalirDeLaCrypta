@@ -17,8 +17,8 @@ public class personnage : MonoBehaviour
 	private AudioSource douleur;
 	public Transform _detecTeurCollision;//recuper le gameObjet detecteur de collision
 
-	public Text txtnbBombe;
-	public Text txtnbVies;
+	//public Text txtnbBombe;
+	//public Text txtnbVies;
 	public float nbBombe = 0;
 	public float nbVieMax = 3;
 	public float nbVie = 3;
@@ -38,9 +38,10 @@ public class personnage : MonoBehaviour
 		douleur = this.GetComponent<AudioSource> ();
 		
 		this.rb = GetComponent<Rigidbody2D> ();
-		txtnbBombe.text = nbBombe.ToString();
-		txtnbVies.text = nbVieMax.ToString();
-
+		//txtnbBombe.text = nbBombe.ToString();
+		//txtnbVies.text = nbVieMax.ToString();
+		ScriptGameManager.gameManager.txtnbBombe.text = nbBombe.ToString ();
+		ScriptGameManager.gameManager.txtnbVies.text = nbVie.ToString ();
 		Transform _detectColl = Instantiate (_detecTeurCollision, rb.position, transform.localRotation) as Transform;//crée une instance du detecteur de Collision
 
 		_detectColl.parent = this.rb.transform;//attache le detecteur de collision comme enfant du perso.
@@ -50,7 +51,8 @@ public class personnage : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		txtnbVies.text = nbVie.ToString ();
+		//txtnbVies.text = nbVie.ToString ();
+		ScriptGameManager.gameManager.txtnbVies.text = nbVie.ToString ();
 		if (ouch) {
 			tempsInvincible += Time.deltaTime;
 			if(tempsInvincible >1){
@@ -64,7 +66,8 @@ public class personnage : MonoBehaviour
 			monAudioSource.Play ();
 			GameObject bombeExplose = Instantiate (bombe, pointDepotBombe.position, transform.localRotation) as GameObject;
 			nbBombe--;
-			txtnbBombe.text = nbBombe.ToString ();
+			//txtnbBombe.text = nbBombe.ToString ();
+			ScriptGameManager.gameManager.txtnbBombe.text = nbBombe.ToString ();
 		}
 	}
 
@@ -85,7 +88,8 @@ public class personnage : MonoBehaviour
 			monAudioSource.clip = parent.item_PickUp;
 			monAudioSource.Play ();
 			nbBombe++;
-			txtnbBombe.text = nbBombe.ToString ();
+			//txtnbBombe.text = nbBombe.ToString ();
+			ScriptGameManager.gameManager.txtnbBombe.text = nbBombe.ToString ();
 		}
 
 		if (coll.gameObject.transform.parent) {
@@ -97,9 +101,12 @@ public class personnage : MonoBehaviour
 				if (nbVie <= 0) {
 					
 					SceneManager.LoadScene ("Perdant");
-					txtnbVies.text = nbVie.ToString ();
+					//txtnbVies.text = nbVie.ToString ();
+					ScriptGameManager.gameManager.txtnbVies.text = nbVie.ToString ();
 				} else {
-					txtnbVies.text = nbVie.ToString ();
+					//txtnbVies.text = nbVie.ToString ();
+					ScriptGameManager.gameManager.txtnbVies.text = nbVie.ToString ();
+
 				}
 			}
 		}
@@ -110,7 +117,8 @@ public class personnage : MonoBehaviour
 		if (!ouch) {
 			douleur.Play ();
 			nbVie -= dmg;
-			txtnbVies.text = nbVie.ToString ();
+			//txtnbVies.text = nbVie.ToString ();
+			ScriptGameManager.gameManager.txtnbVies.text = nbVie.ToString ();
 			if (nbVie <= 0) {
 				SceneManager.LoadScene ("Perdant");
 			}
