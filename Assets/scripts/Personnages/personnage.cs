@@ -52,6 +52,7 @@ public class personnage : MonoBehaviour
 	void Update ()
 	{
 		//txtnbVies.text = nbVie.ToString ();
+		//Debug.Log("====> TESTING :" +ScriptGameManager.gameManager.txtnbVies.text);
 		ScriptGameManager.gameManager.txtnbVies.text = nbVie.ToString ();
 		if (ouch) {
 			tempsInvincible += Time.deltaTime;

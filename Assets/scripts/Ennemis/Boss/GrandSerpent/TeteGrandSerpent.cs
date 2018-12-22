@@ -86,6 +86,8 @@ public class TeteGrandSerpent : MonoBehaviour
 	// DÉBUT Gestion des domages infligé à ce boss
 	void Toucher (float dmg)
 	{
+		Debug.Log ("===> APPEL TETE_SERPENT--> TOUCHER");
+		Debug.Log ("===> APPEL TETE_SERPENT--> Domage: " + dmg);
 		//if(bouclier==true){
 		sourceAudio_Bouclier.Play ();
 		//}

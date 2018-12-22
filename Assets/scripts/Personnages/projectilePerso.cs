@@ -22,6 +22,7 @@ public class projectilePerso : MonoBehaviour {
 		Rigidbody2D rbTouche = coll.gameObject.GetComponent <Rigidbody2D>();
 		if (coll.gameObject.transform.parent) {
 			if ((coll.gameObject.transform.parent.name == "mesEnnemis")||(coll.gameObject.layer== 13)) {
+				Debug.Log ("===> ELEM TOUCHÉ :" + rbTouche);
 				rbTouche.SendMessageUpwards ("Toucher", pointsDommage, SendMessageOptions.RequireReceiver);
 			}
 

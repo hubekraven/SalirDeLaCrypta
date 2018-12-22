@@ -17,6 +17,10 @@ public class ScriptGameManager : MonoBehaviour
 	//elements du UI
 	private Transform _CanvasDomage;
 	private Transform _CanvasVitesse;
+	public Text txtnbBombe;
+	public Text txtnbVies;
+	public Text nbDomage;
+	public Text nbVitesse;
 	//niveau actuel
 	private int iLevel;
 	private bool peutUpdate = false;
@@ -26,16 +30,12 @@ public class ScriptGameManager : MonoBehaviour
 	public Transform persoActif;
 
 	private string bonusName;
-	public Text txtnbBombe;
-	public Text txtnbVies;
-	public Text nbDomage;
-	public Text nbVitesse;
 	private bool _hasNewProjectil = false;
 	//public string choixPersonnage;
 
 	private GameObject nouveauProjectil;
 
-
+	//TODO: Debuger Niveau 2 Collision Tete Boss serpent
 	void Awake()
 	{
 		/***make sure that only one gameManager is Active in all the scenes
@@ -75,17 +75,7 @@ public class ScriptGameManager : MonoBehaviour
 		_CanvasVitesse= this.transform.GetChild (1);
 		nbDomage = _CanvasDomage.GetChild(1).GetComponent<Text>();
 		nbVitesse=_CanvasVitesse.GetChild(1).GetComponent<Text>();
-		//Debug.Log ("====> CANVAS VITESSE" + _CanvasVitesse);
 		this.chargePlayerState ();
-
-
-		//if(PlayerPrefs.HasKey ("playerState"))
-		//{
-		//	//Debug.Log("====> TESTING IN CANVAS");
-		//	//_CanvasDomage = this.transform.GetChild (0);
-		//	//_CanvasVitesse= this.transform.GetChild (1);
-		//	this.chargePlayerState ();
-		//}
 
 	}
 	
@@ -136,7 +126,7 @@ public class ScriptGameManager : MonoBehaviour
 			} else {
 				SceneManager.LoadScene ("Fin");
 				//PlayerPrefs.DeleteAll ();
-				Debug.Log ("FIN DU JEU");
+				//Debug.Log ("FIN DU JEU");
 			}
 		}
 		finNiveau = false;
@@ -150,7 +140,6 @@ public class ScriptGameManager : MonoBehaviour
 
 			if (PlayerPrefs.HasKey ("vieMaxJoueur")) {
 				_scriptPersonnage.nbVieMax = PlayerPrefs.GetFloat ("vieMaxJoueur");
-				//Debug.Log ("KEY vieMaxJoueur");
 			}
 			if (PlayerPrefs.HasKey ("vitesseJoueur")) {
 				Debug.Log ("===> KEY vitesseJoueur");

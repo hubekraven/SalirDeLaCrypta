@@ -74,7 +74,7 @@ public class GrandSerpentMouv : MonoBehaviour
 	{
 		
 		vitesseVerticale = acceleration;
-		Debug.Log ("VITESSE: " + vitesseVerticale);
+		//Debug.Log ("VITESSE: " + vitesseVerticale);
 		Vector2 lepoint = new Vector2 (positionInitialX, _dimensionSalleScript.minY - 9f);
 
 		_dernierElement = serpent.GetChild (0);//recuper la Tete du serpent
@@ -129,6 +129,11 @@ public class GrandSerpentMouv : MonoBehaviour
 		serpent.localScale = dir;	
 	}
 
+	//permet de corrige l'erreur soulevé par SendMessage lorsque le projectil touche ce gameObject
+	void Toucher(float dmg){
+		return;
+	}
+
 
 	//pose action
 	IEnumerator Pause(float vitesse){
@@ -139,10 +144,7 @@ public class GrandSerpentMouv : MonoBehaviour
 
 			_colliders.enabled = false;
 		}
-		//vitesseVerticale = vitessePrecedente;
-		//serpent.position = Vector3.MoveTowards (serpent.position, positionFinal, 0 * Time.deltaTime);
 		yield return new WaitForSeconds (3f);// temps d'attente
-		//serpent.position = Vector3.MoveTowards (serpent.position, positionFinal, vitesseVerticale * Time.deltaTime);
 		foreach (Collider2D _colliders in serpent.GetComponentsInChildren <Collider2D>()) {
 
 			_colliders.enabled = true;
@@ -151,11 +153,6 @@ public class GrandSerpentMouv : MonoBehaviour
 			acceleration = vitessePrecedente *vitesse;	
 		}
 
-		//Debug.Log ("Acceleration : " +  vitessePrecedente *vitesse);
-	/*	if (acceleration <= 2f) {
-			ChangeVitesse(acceleration);	
-			//Deplacement (acceleration);
-		}*/
 	}
 //FIN de tourne()
 }
